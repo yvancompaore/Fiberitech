@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700&family=Questrial&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.khula-family{
+    font-family: 'Khula', sans-serif;
+}
+
+
+.hide-scroll::-webkit-scrollbar {
+    display: none;
+}
+.hide-scroll{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.wrapper{
+    max-width:1040px ;
+}
+
+
+input,textarea{
+    @apply px-5
+}
