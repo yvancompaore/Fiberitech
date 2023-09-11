@@ -278,6 +278,389 @@ export const products = [
         image: "/assets/images/products/product1.png",
         images: ["/assets/images/products/product1.png"]
     },
+    {
+    title: "Subscriber Dual Duct Connection Cable",
+    price: 19.99,
+    rating: 5,
+    slug: "product-8",
+    description:
+      "This dual-sheath optical connection cable allows for the connection between the external junction point and the indoor subscriber socket. Thanks to its easily strippable structure, it can be installed both underground and overhead (due to its outer PEHD sheath), as well as indoors up to the subscriber's location (thanks to its inner LSZH sheath).",
+    category: "Cable", // Assigned to the "Cable" category
+    features: [
+      {
+        id: 1,
+        title: "4K Ultra HD",
+        description:
+          "Enjoy stunning 4K Ultra HD resolution for your movies, games, and presentations.",
+      },
+      {
+        id: 2,
+        title: "High-Quality Audio",
+        description:
+          "Experience immersive audio with support for high-quality sound formats.",
+      },
+      {
+        id: 3,
+        title: "Durable Design",
+        description:
+          "Our HDMI cable features a durable and long-lasting design for reliable connectivity.",
+      },
+    ],
+    reviews: [
+      {
+        description:
+          "This HDMI cable is fantastic! It makes a noticeable difference in video and audio quality. Highly recommended!",
+        user: {
+          avatar: "/assets/images/user.png",
+          name: "Sarah Miller",
+        },
+        rating: 5,
+      },
+    ],
+    image: "/assets/images/products/product8.png",
+    images: ["/assets/images/products/product8.png"],
+  },
+  {
+    title:
+      "Fiber optic cable, micro-sheath, armored, self-supporting, single-mode/multi-mode, 12 to 144 fibers.",
+    price: 19.99,
+    rating: 5,
+    slug: "product-9",
+    description:
+      "Good mechanical and thermal performance, High-strength loose tube resistant to hydrolysis, The special tube filling compound provides critical fiber protection ,Crush resistance and flexibility are ensured by the following measures,100% cable core filling with loose tube filling compound,Moisture-enhancing PSP/PAP,Steel wire used as a central strength member",
+    category: "Cable", // Assigned to the "Cable" category
+    features: [
+      {
+        id: 1,
+        title: "4K Ultra HD",
+        description:
+          "Enjoy stunning 4K Ultra HD resolution for your movies, games, and presentations.",
+      },
+      {
+        id: 2,
+        title: "High-Quality Audio",
+        description:
+          "Experience immersive audio with support for high-quality sound formats.",
+      },
+      {
+        id: 3,
+        title: "Durable Design",
+        description:
+          "Our HDMI cable features a durable and long-lasting design for reliable connectivity.",
+      },
+    ],
+    reviews: [
+      {
+        description:
+          "This HDMI cable is fantastic! It makes a noticeable difference in video and audio quality. Highly recommended!",
+        user: {
+          avatar: "/assets/images/user.png",
+          name: "Sarah Miller",
+        },
+        rating: 5,
+      },
+    ],
+    image: "/assets/images/products/product9.png",
+    images: ["/assets/images/products/product9.png"],
+  },
+  {
+    title:
+      "Fiber optic cable, armored, outdoor self-supporting ADSS (All-Dielectric Self-Supporting), reinforced, single-mode/multi-mode, 24 to 288 fibers.",
+    price: 19.99,
+    rating: 5,
+    slug: "product-10",
+    description:
+      "The unarmored outdoor fiber optic cable utilizes multiple waterproof fire-resistant buffer fibers as an optional means of communication, with the waterproof buffer fiber covered by an aramid layer, and the cable is completed with a fire-resistant and chemically resistant sheath. It is composed of highly strengthened and flexible FRP (Fiber Reinforced Plastic), where the central strength member ensures the cable's strength and bending characteristics. An aramid layer imparts extremely high mechanical strength to the optical fiber. The entire dielectric structure protects it from electromagnetic influences.",
+    category: "Cable", // Assigned to the "Cable" category
+    features: [
+      {
+        id: 1,
+        title: "4K Ultra HD",
+        description:
+          "Enjoy stunning 4K Ultra HD resolution for your movies, games, and presentations.",
+      },
+      {
+        id: 2,
+        title: "High-Quality Audio",
+        description:
+          "Experience immersive audio with support for high-quality sound formats.",
+      },
+      {
+        id: 3,
+        title: "Durable Design",
+        description:
+          "Our HDMI cable features a durable and long-lasting design for reliable connectivity.",
+      },
+    ],
+    reviews: [
+      {
+        description:
+          "This HDMI cable is fantastic! It makes a noticeable difference in video and audio quality. Highly recommended!",
+        user: {
+          avatar: "/assets/images/user.png",
+          name: "Sarah Miller",
+        },
+        rating: 5,
+      },
+    ],
+    image: "/assets/images/products/product10.png",
+    images: ["/assets/images/products/product10.png"],
+  },
+  {
+    title:
+      "Fiber optic cable, armored, outdoor self-supporting ADSS (All-Dielectric Self-Supporting), reinforced, single-mode/multi-mode, 12 to 96 fibers.",
+    price: 19.99,
+    rating: 5,
+    slug: "product-11",
+    description:
+      "The double-layer aerial ADSS cable is used for communication within the overhead high-voltage electrical transmission system; it can also serve as a communication cable in areas with frequent lightning or over long distances.",
+    category: "Cable", // Assigned to the "Cable" category
+    features: [
+      {
+        id: 1,
+        title: "4K Ultra HD",
+        description:
+          "Enjoy stunning 4K Ultra HD resolution for your movies, games, and presentations.",
+      },
+      {
+        id: 2,
+        title: "High-Quality Audio",
+        description:
+          "Experience immersive audio with support for high-quality sound formats.",
+      },
+      {
+        id: 3,
+        title: "Durable Design",
+        description:
+          "Our HDMI cable features a durable and long-lasting design for reliable connectivity.",
+      },
+    ],
+    reviews: [
+      {
+        description:
+          "This HDMI cable is fantastic! It makes a noticeable difference in video and audio quality. Highly recommended!",
+        user: {
+          avatar: "/assets/images/user.png",
+          name: "Sarah Miller",
+        },
+        rating: 5,
+      },
+    ],
+    image: "/assets/images/products/product11.png",
+    images: ["/assets/images/products/product11.png"],
+  },
+  {
+    title:
+      "Double-sheath microfiber cable, single-mode/multi-mode, 12 to 144 fibers.",
+    price: 19.99,
+    rating: 5,
+    slug: "product-12",
+    description:
+      "These fully non-metallic cables are intended to be pulled through ducts, directly buried in the ground, or placed in gutters. They are also designed to be installed at heights of around 80 meters, with attachment to poles being ensured by specific fittings (please consult us). Their double sheath and non-metallic armor provide good protection against mechanical damage, rodents, and the impact of firearms.",
+    category: "Cable",
+    features: [
+      {
+        id: 1,
+        title: "4K Ultra HD",
+        description:
+          "Enjoy stunning 4K Ultra HD resolution for your movies, games, and presentations.",
+      },
+      {
+        id: 2,
+        title: "High-Quality Audio",
+        description:
+          "Experience immersive audio with support for high-quality sound formats.",
+      },
+      {
+        id: 3,
+        title: "Durable Design",
+        description:
+          "Our HDMI cable features a durable and long-lasting design for reliable connectivity.",
+      },
+    ],
+    reviews: [
+      {
+        description:
+          "This HDMI cable is fantastic! It makes a noticeable difference in video and audio quality. Highly recommended!",
+        user: {
+          avatar: "/assets/images/user.png",
+          name: "Sarah Miller",
+        },
+        rating: 5,
+      },
+    ],
+    image: "/assets/images/products/product12.png",
+    images: ["/assets/images/products/product12.png"],
+  },
+  {
+    title:
+      "Fiber optic cable, reinforced outdoor micro-sheath, single-mode/multi-mode, 12 to 72 fibers.",
+    price: 19.99,
+    rating: 5,
+    slug: "product-13",
+    description:
+      "Compatibility with all types of fibers and environments/Very compact, lightweight, and easy to handle/Modularity and easy access to fibers (bypass / inline or end-to-end splicing)/Compatibility with existing installation and connection techniques.",
+    category: "Cable",
+    features: [
+      {
+        id: 1,
+        title: "4K Ultra HD",
+        description:
+          "Enjoy stunning 4K Ultra HD resolution for your movies, games, and presentations.",
+      },
+      {
+        id: 2,
+        title: "High-Quality Audio",
+        description:
+          "Experience immersive audio with support for high-quality sound formats.",
+      },
+      {
+        id: 3,
+        title: "Durable Design",
+        description:
+          "Our HDMI cable features a durable and long-lasting design for reliable connectivity.",
+      },
+    ],
+    reviews: [
+      {
+        description:
+          "This HDMI cable is fantastic! It makes a noticeable difference in video and audio quality. Highly recommended!",
+        user: {
+          avatar: "/assets/images/user.png",
+          name: "Sarah Miller",
+        },
+        rating: 5,
+      },
+    ],
+    image: "/assets/images/products/product13.png",
+    images: ["/assets/images/products/product13.png"],
+  },
+  {
+    title: "FC Connectors",
+    price: 19.99,
+    rating: 5,
+    slug: "product-14",
+    description:
+      "This screw-type connection system utilizes a 2.5mm diameter ceramic ferrule (Zr02), compatible with our entire range of FC adapters. It complies with IEC-61754-13 standards as well as RoHs and REACH SVHC directives. The LC connector, on the other hand, is distinguished by its small size and compact design, making it ideal for high-density applications. It offers straightforward connectivity through a lever system that produces an audible click when locked.",
+    category: "Connectors",
+    features: [
+      {
+        id: 1,
+        title: "4K Ultra HD",
+        description:
+          "Enjoy stunning 4K Ultra HD resolution for your movies, games, and presentations.",
+      },
+      {
+        id: 2,
+        title: "High-Quality Audio",
+        description:
+          "Experience immersive audio with support for high-quality sound formats.",
+      },
+      {
+        id: 3,
+        title: "Durable Design",
+        description:
+          "Our HDMI cable features a durable and long-lasting design for reliable connectivity.",
+      },
+    ],
+    reviews: [
+      {
+        description:
+          "This HDMI cable is fantastic! It makes a noticeable difference in video and audio quality. Highly recommended!",
+        user: {
+          avatar: "/assets/images/user.png",
+          name: "Sarah Miller",
+        },
+        rating: 5,
+      },
+    ],
+    image: "/assets/images/products/connectors1.png",
+    images: ["/assets/images/products/connectors1.png"],
+  },
+  {
+    title: "LC Connectors",
+    price: 19.99,
+    rating: 5,
+    slug: "product-15",
+    description:
+      "The LC connector is characterized by its small size and low profile, providing valuable space-saving advantages in high-density applications. Connection is achieved through a lever system that produces an audible click when locked. It utilizes a clip-type connection system with a ceramic ferrule (Zr02) of 1.25 mm in diameter, making it compatible with our entire range of LC adapters. It conforms to IEC-61754-20 standards and complies with RoHs and REACH SVHC directives.",
+    category: "Connectors",
+    features: [
+      {
+        id: 1,
+        title: "4K Ultra HD",
+        description:
+          "Enjoy stunning 4K Ultra HD resolution for your movies, games, and presentations.",
+      },
+      {
+        id: 2,
+        title: "High-Quality Audio",
+        description:
+          "Experience immersive audio with support for high-quality sound formats.",
+      },
+      {
+        id: 3,
+        title: "Durable Design",
+        description:
+          "Our HDMI cable features a durable and long-lasting design for reliable connectivity.",
+      },
+    ],
+    reviews: [
+      {
+        description:
+          "This HDMI cable is fantastic! It makes a noticeable difference in video and audio quality. Highly recommended!",
+        user: {
+          avatar: "/assets/images/user.png",
+          name: "Sarah Miller",
+        },
+        rating: 5,
+      },
+    ],
+    image: "/assets/images/products/connectors2.png",
+    images: ["/assets/images/products/connectors2.png"],
+  },
+  {
+    title: "SC Connectors",
+    price: 19.99,
+    rating: 5,
+    slug: "product-16",
+    description:
+      "SC stands for Subscriber Connector. SC connectors offer excellent density and their push-pull design ensures robust fiber mating with a fine end-face contact. SC connectors are cost-effective, robust, and trouble-free. SC connectors provide precise positioning through their ceramic sleeves. The snap-in, snap-out connector component engages with a simple back-and-forth movement and is indexed. The SC optical connector has a 2.5mm ferrule and a molded housing for shielding.",
+    category: "Connectors",
+    features: [
+      {
+        id: 1,
+        title: "4K Ultra HD",
+        description:
+          "Enjoy stunning 4K Ultra HD resolution for your movies, games, and presentations.",
+      },
+      {
+        id: 2,
+        title: "High-Quality Audio",
+        description:
+          "Experience immersive audio with support for high-quality sound formats.",
+      },
+      {
+        id: 3,
+        title: "Durable Design",
+        description:
+          "Our HDMI cable features a durable and long-lasting design for reliable connectivity.",
+      },
+    ],
+    reviews: [
+      {
+        description:
+          "This HDMI cable is fantastic! It makes a noticeable difference in video and audio quality. Highly recommended!",
+        user: {
+          avatar: "/assets/images/user.png",
+          name: "Sarah Miller",
+        },
+        rating: 5,
+      },
+    ],
+    image: "/assets/images/products/connectors2.png",
+    images: ["/assets/images/products/connectors2.png"],
+  },
 
 ];
 
