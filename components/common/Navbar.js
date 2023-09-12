@@ -5,9 +5,12 @@ import GlobeIcon from "@/public/assets/images/globe.svg";
 import Link from "next/link";
 import { BiCross } from "react-icons/bi";
 import { RxCross1 } from "react-icons/rx";
+import { useTranslations } from "next-intl";
 
 const Navbar = () => {
   const [isVisible, setIsVisible] = useState(false);
+  const t = useTranslations("NavBar");
+  console.log(t("Menu1"));
 
   return (
     <nav className="absolute flex items-center justify-between flex-wrap lg:px-40  px-2    py-5  w-full z-10 top-0 ">
@@ -39,7 +42,7 @@ const Navbar = () => {
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <title>Menu</title>
+            <title> Menu</title>
             <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
           </svg>
         </button>
@@ -62,7 +65,7 @@ const Navbar = () => {
               className="inline-block py-2 px-4 text-white no-underline "
               href="#"
             >
-              Home
+              {t("Menu1")}
             </Link>
           </li>
           <li className="mr-3">
@@ -70,7 +73,7 @@ const Navbar = () => {
               className="inline-block py-2 px-4 text-white no-underline "
               href={"/search"}
             >
-              Products
+              {t("Menu2")}
             </Link>
           </li>
           <li className="mr-3">
@@ -78,7 +81,7 @@ const Navbar = () => {
               className="inline-block py-2 px-4 text-white no-underline "
               href="#about"
             >
-              About
+              {t("Menu3")}
             </Link>
           </li>
           <li className="mr-3">
@@ -86,7 +89,7 @@ const Navbar = () => {
               className="inline-block py-2 px-4 text-white no-underline "
               href="#services"
             >
-              Service
+              {t("Menu4")}
             </Link>
           </li>
           <li className="mr-3">
@@ -94,7 +97,7 @@ const Navbar = () => {
               className="inline-block py-2 px-4 text-white no-underline "
               href="#faq"
             >
-              FAQ
+              {t("Menu5")}
             </Link>
           </li>
 
@@ -103,15 +106,19 @@ const Navbar = () => {
               className="inline-block py-2 px-4 text-white no-underline rounded-full border border-[#158319] "
               href="#contact"
             >
-              Contact Us
+              {t("Menu6")}
             </a>
           </li>
           <li className="mt-4 lg:mt-0 ml-4 flex gap-2 items-center">
             <Image src={GlobeIcon} alt={"Language Icon"} />
 
-            <span className={"text-white"}>en</span>
+            <Link className={"text-white"} href="/en/" locale="en">
+              en
+            </Link>
             <span className={"h-5 w-0.5 bg-white/60"}></span>
-            <span className={"text-white/30"}>Es</span>
+            <Link className={"text-white/30"} href="/es/" locale="es">
+              Es
+            </Link>
           </li>
         </ul>
       </div>

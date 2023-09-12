@@ -1,0 +1,25 @@
+{
+  "NavBar": {
+    "Menu1": "Inicio",
+    "Menu2": "Productos",
+    "Menu3": "Acerca",
+    "Menu4": "Servicios",
+    "Menu5": "FAQ",
+    "Menu6": "Contáctenos"
+  },
+  "Hero": {
+    "FirstHalfTitle": "Potencia tu red con alta calidad ",
+    "SecondHalfTitle": "Equipo de Fibra",
+    "SubTitle": "Simplifica la Conectividad y Mejora el Rendimiento con Nuestra Gama de Equipos de Fibra Premium.",
+    "Button1": "Compra Ahora"
+  },
+  "About": {
+    "Title": "Acerca de Nosotros",
+    "SubTitle": "Una Historia de nuestra empresa",
+    "Description": "Bienvenido a Fiber iTech, el destino confiable para soluciones de equipos de fibra de vanguardia. Con un enfoque en calidad e innovación, ofrecemos una amplia gama de productos de fibra óptica para satisfacer sus necesidades de redes. Nuestro equipo de expertos está comprometido en brindar un soporte personalizado y un servicio al cliente excepcional. Únase a nosotros en la construcción de un futuro conectado con equipos de fibra confiables en los que puede confiar."
+  },
+  "Service": {
+    "Title": "Nuestros Servicios",
+    "SubTitle": "¡Lo que hacemos!"
+  }
+}

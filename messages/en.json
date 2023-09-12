@@ -1,0 +1,26 @@
+{
+  "NavBar": {
+    "title": "Menu",
+    "Menu1": "Home",
+    "Menu2": "Products",
+    "Menu3": "About",
+    "Menu4": "Service",
+    "Menu5": "FAQ",
+    "Menu6": " Contact Us"
+  },
+  "Hero": {
+    "FirstHalfTitle": "Supercharge Your Network with High-Quality ",
+    "SecondHalfTitle": "Fiber Equipment",
+    "SubTitle": "Simplify Connectivity and Enhance Performance with Our Premium Fiber Equipment Range.",
+    "Button1": "Shop Now"
+  },
+  "About": {
+    "Title": "About Us",
+    "SubTitle": "A Story of our company",
+    "Description": "Welcome to Fiber iTech, the trusted destination for cutting-edge fiber equipment solutions. With a focus on quality and innovation,we offer a comprehensive range of fiber optic products to meet your networking needs. Our expert team is committed to providing personalized support and exceptional customer service. Join us in building a connected future with reliable fiber equipment you can depend on."
+  },
+  "Service": {
+    "Title": "Our Services",
+    "SubTitle": "What We Do!"
+  }
+}
