@@ -22,5 +22,9 @@
   "Service": {
     "Title": "Our Services",
     "SubTitle": "What We Do!"
+  },
+  "Product": {
+    "Title": " Our Products",
+    "SubTitle": "What We Sell!"
   }
 }

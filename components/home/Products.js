@@ -8,18 +8,21 @@ import "swiper/css/pagination";
 import Image from "next/image";
 import Product from "@/components/common/Product";
 import { products } from "@/utils/constants";
+import { useTranslations } from "next-intl";
+import { useLocale, useMessages } from "next-intl";
+
 const Products = () => {
+  const t = useTranslations("Product");
+  const locale = useLocale();
   return (
     <div
       id={"products"}
       className={"mt-20 w-full xl:px-40 bg-[#E6EAED] py-16  "}
     >
       <h1 className={"text-center font-bold text-5xl khula-family"}>
-        Our Products
+        {t("Title")}
       </h1>
-      <h4 className={"text-center  text-xl khula-family"}>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio.
-      </h4>
+      <h4 className={"text-center  text-xl khula-family"}>{t("SubTitle")}</h4>
 
       <Swiper
         breakpoints={{
