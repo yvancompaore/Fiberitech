@@ -6,16 +6,16 @@ export const servicesEn = [
       "we offer a wide selection of top-quality fiber optic products, including cables, connectors, transceivers, media converters, and switches.Our products are sourced from reputable manufacturers and undergo rigorous testing to ensure reliability and performance.",
   },
   {
-    title: "Customized Solutions",
+    title: "Expert Technical Support",
     icon: "/assets/images/tool.svg",
     description:
-      "We understand that each project has unique requirements. That's why we provide tailored solutions to meet your specific needs. From designing custom fiber optic solutions to addressing specialized applications, we strive to deliver the best solution for your business or project.",
+      "Our team of experienced professionals is always ready to assist you with technical expertise and guidance. Whether you need help with product selection, installation, or troubleshooting, we are here to ensure a smooth and successful networking experience.",
   },
   {
     title: "Customized Solutions",
     icon: "/assets/images/gear.svg",
     description:
-      " We understand that each project has unique requirements. That's why we provide tailored solutions to meet your specific needs. From designing custom fiber optic solutions to addressing specialized applications, we strive to deliver the best solution for your business or project.",
+      "We understand that each project has unique requirements. That's why we provide tailored solutions to meet your specific needs. From designing custom fiber optic solutions to addressing specialized applications, we strive to deliver the best solution for your business or project.",
   },
 ];
 
@@ -27,10 +27,10 @@ export const servicesEs = [
       "Ofrecemos una amplia selección de productos de fibra óptica de alta calidad, que incluyen cables, conectores, transceptores, convertidores de medios y conmutadores. Nuestros productos provienen de fabricantes de renombre y se someten a pruebas rigurosas para garantizar confiabilidad y rendimiento.",
   },
   {
-    title: "Soluciones Personalizadas",
+    title: "Soporte Técnico Especializado",
     icon: "/assets/images/tool.svg",
     description:
-      "Entendemos que cada proyecto tiene requisitos únicos. Es por eso que ofrecemos soluciones a medida para satisfacer sus necesidades específicas. Desde el diseño de soluciones de fibra óptica personalizadas hasta la atención de aplicaciones especializadas, nos esforzamos por brindar la mejor solución para su negocio o proyecto",
+      "Nuestro equipo de profesionales experimentados siempre está listo para ayudarte con experiencia técnica y orientación. Ya sea que necesites ayuda con la selección de productos, la instalación o la resolución de problemas, estamos aquí para garantizar una experiencia de red fluida y exitosa.",
   },
   {
     title: "Soluciones Personalizadas",
@@ -726,24 +726,33 @@ export const products = [
   },
 ];
 
-export const faqs = [
+export const faqsEn = [
   {
     id: 1,
-    question: "What is the return policy?",
+    question: "What is fiber optic technology, and how does it work?",
     answer:
-      "Our return policy allows you to return items within 30 days of purchase for a full refund.",
+      "Fiber optic technology uses thin strands of glass or plastic to transmit data in the form of light pulses. These pulses travel through the fiber cables, reflecting off the walls due to total internal reflection, ensuring minimal signal loss over long distances. This enables faster data transmission and higher bandwidth compared to traditional copper cables",
   },
   {
     id: 2,
-    question: "How can I track my order?",
+    question: " How can I place an order?",
     answer:
-      "You can track your order by logging into your account or using the tracking number provided in the confirmation email.",
+      "To place an order, simply visit our contact page on our website. You can reach us via phone, email, or our online contact form. Our customer service team will promptly assist you in selecting the right products and guide you through the ordering process to ensure a seamless experience. Thank you for choosing us for your needs!",
+  },
+];
+
+export const faqsEs = [
+  {
+    id: 1,
+    question: "¿Qué es la tecnología de fibra óptica y cómo funciona?",
+    answer:
+      "La tecnología de fibra óptica utiliza finas hebras de vidrio o plástico para transmitir datos en forma de pulsos de luz. Estos pulsos viajan a través de los cables de fibra, reflejándose en las paredes debido a la reflexión interna total, lo que garantiza una pérdida mínima de señal en largas distancias. Esto permite una transmisión de datos más rápida y un mayor ancho de banda en comparación con los cables de cobre tradicionales.",
   },
   {
-    id: 3,
-    question: "Do you offer international shipping?",
+    id: 2,
+    question: "¿Cómo puedo realizar un pedido?",
     answer:
-      "Yes, we offer international shipping to most countries. Shipping rates and delivery times may vary depending on your location.",
+      "Para realizar un pedido, simplemente visita nuestra página de contacto en nuestro sitio web. Puedes comunicarte con nosotros por teléfono, correo electrónico o a través de nuestro formulario de contacto en línea. Nuestro equipo de servicio al cliente te asistirá de inmediato para seleccionar los productos adecuados y te guiará a través del proceso de pedido para asegurarse de que tengas una experiencia sin problemas. ¡Gracias por elegirnos para satisfacer tus necesidades!",
   },
 ];
 

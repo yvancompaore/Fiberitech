@@ -1,6 +1,6 @@
 {
   "NavBar": {
-    "title": "Menu",
+    "Title": "Menu",
     "Menu1": "Home",
     "Menu2": "Products",
     "Menu3": "About",
@@ -26,5 +26,31 @@
   "Product": {
     "Title": " Our Products",
     "SubTitle": "What We Sell!"
+  },
+  "Contact": {
+    "Title": " Contact Us",
+    "FirstName": "First Name",
+    "LastName": "Last Name",
+    "Email": "Email",
+    "Phone": "Phone",
+    "Message": "Message",
+    "Type": "Type Here",
+    "Submit": "Submit"
+  },
+  "Search": {
+    "Title": "Products"
+  },
+  "Footer": {
+    "Description": "is a leading provider of high-quality fiber equipment solutions for businesses and individuals. With a commitment to excellence,we deliver reliable products and exceptional customer service to meet your networking needs.",
+    "Links": "Links",
+    "Home": "Home",
+    "About": "About",
+    "Sevices": "Services",
+    "Products": "Products",
+    "Faq": "FAQ",
+    "Newslatter": "Join Our Newsletter",
+    "EmailDemand": "Send Email To Join",
+    "Copyright": " Copyright 2023.All Right Reserved",
+    "Privacy": " Privacy Policy / Terms & Condition"
   }
 }

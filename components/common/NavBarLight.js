@@ -6,10 +6,12 @@ import Logo from "@/public/assets/images/logo-black.png";
 import Link from "next/link";
 import { RxCross1 } from "react-icons/rx";
 import { useTranslations } from "next-intl";
+import { useLocale, useMessages } from "next-intl";
 
 const NavbarLight = () => {
   const [isVisible, setIsVisible] = useState(false);
   const t = useTranslations("NavBar");
+  const locale = useLocale();
 
   return (
     <nav className="absolute flex items-center justify-between flex-wrap lg:px-40  px-2    py-5  w-full z-10 top-0 ">
@@ -41,7 +43,7 @@ const NavbarLight = () => {
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <title>{t("Title")}</title>
+            <title>Menu</title>
             <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
           </svg>
         </button>
@@ -88,24 +90,27 @@ const NavbarLight = () => {
           </li>
           <li className="mr-3">
             <a className="inline-block py-2 px-4  no-underline " href="/#faq">
-              FAQ
+              {t("Menu5")}
             </a>
           </li>
 
           <li className="mr-3">
             <a
               className="inline-block py-2 px-4  no-underline rounded-full border border-[#158319] "
-              href="#"
+              href={"/" + locale + "#contact"}
             >
-              {t("Menu5")}
+              {t("Menu6")}
             </a>
           </li>
           <li className="mt-4 lg:mt-0 ml-4 flex gap-2 items-center">
             <Image src={GlobeIcon} alt={"Language Icon"} />
-
-            <span className={"text-white"}>en</span>
-            <span className={"h-5 w-0.5 bg-white/60"}></span>
-            <span className={"text-white/30"}>Fr</span>
+            <Link className={"text-black"} href="/en/" locale="en">
+              en
+            </Link>
+            <span className={"h-5 w-0.5 bg-black/60"}></span>
+            <Link className={"text-black/30"} href="/es/" locale="es">
+              Es
+            </Link>
           </li>
         </ul>
       </div>

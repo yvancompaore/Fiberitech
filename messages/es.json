@@ -23,7 +23,33 @@
     "SubTitle": "¡Lo que hacemos!"
   },
   "Product": {
-    "Title": " Our Products",
-    "SubTitle": "What We Sell!"
+    "Title": " Nuestros Productos",
+    "SubTitle": "¡Lo que vendemos!"
+  },
+  "Contact": {
+    "Title": " Contáctenos",
+    "FirstName": "Nombre",
+    "LastName": "Apellido",
+    "Email": "Email",
+    "Phone": "Teléfono",
+    "Message": "Mensaje",
+    "Type": "Escriba aquí",
+    "Submit": "Enviar"
+  },
+  "Search": {
+    "Title": "Productos"
+  },
+  "Footer": {
+    "Description": "es un proveedor líder de soluciones de equipos de fibra de alta calidad para empresas y particulares. Con un compromiso con la excelencia, ofrecemos productos fiables y un servicio al cliente excepcional para satisfacer sus necesidades de redes.",
+    "Links": "Enlaces",
+    "Home": "Inicio",
+    "About": "Sobre nosotros",
+    "Sevices": "Servicios",
+    "Products": "Productos",
+    "Faq": "FAQ",
+    "Newslatter": "Únete a Nuestro Boletín",
+    "EmailDemand": "Enviar correo electrónico para unirse",
+    "Copyright": " Derechos de autor 2023. Todos los derechos reservados.",
+    "Privacy": " Política de privacidad / Términos y condiciones"
   }
 }
