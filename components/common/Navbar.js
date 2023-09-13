@@ -71,7 +71,7 @@ const Navbar = () => {
           <li className="mr-3">
             <Link
               className="inline-block py-2 px-4 text-white no-underline "
-              href={"/search"}
+              href="/search"
             >
               {t("Menu2")}
             </Link>
