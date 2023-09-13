@@ -6,11 +6,13 @@ import Link from "next/link";
 import { BiCross } from "react-icons/bi";
 import { RxCross1 } from "react-icons/rx";
 import { useTranslations } from "next-intl";
+import { useLocale, useMessages } from "next-intl";
 
 const Navbar = () => {
   const [isVisible, setIsVisible] = useState(false);
   const t = useTranslations("NavBar");
-  console.log(t("Menu1"));
+  const locale = useLocale();
+  console.log(locale);
 
   return (
     <nav className="absolute flex items-center justify-between flex-wrap lg:px-40  px-2    py-5  w-full z-10 top-0 ">
@@ -71,7 +73,7 @@ const Navbar = () => {
           <li className="mr-3">
             <Link
               className="inline-block py-2 px-4 text-white no-underline "
-              href={"/search"}
+              href={`/${locale}/search`}
             >
               {t("Menu2")}
             </Link>
