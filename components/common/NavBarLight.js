@@ -8,10 +8,20 @@ import { RxCross1 } from "react-icons/rx";
 import { useTranslations } from "next-intl";
 import { useLocale, useMessages } from "next-intl";
 
+import { usePathname, useSearchParams } from "next/navigation";
+
 const NavbarLight = () => {
   const [isVisible, setIsVisible] = useState(false);
   const t = useTranslations("NavBar");
-  const locale = useLocale();
+  //const locale = useLocale();
+  var locale;
+  const pathname = usePathname();
+  if (pathname == "/es") {
+    locale = "es";
+  } else {
+    locale = "en";
+  }
+  console.log(pathname);
 
   return (
     <nav className="absolute flex items-center justify-between flex-wrap lg:px-40  px-2    py-5  w-full z-10 top-0 ">
