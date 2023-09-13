@@ -1384,6 +1384,9 @@ export const products = [
   },
 ];
 
+   
+  
+
 export const faqsEn = [
   {
     id: 1,
