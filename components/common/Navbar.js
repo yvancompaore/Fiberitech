@@ -8,21 +8,22 @@ import { RxCross1 } from "react-icons/rx";
 import { useTranslations } from "next-intl";
 import { useLocale, useMessages } from "next-intl";
 import { usePathname, useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 
 const Navbar = () => {
   const [isVisible, setIsVisible] = useState(false);
   const t = useTranslations("NavBar");
-  //const locale = useLocale();
-  // const pathname = usePathname();
-
-  var locale;
   const pathname = usePathname();
+  var locale;
+
   if (pathname == "/es") {
     locale = "es";
   } else {
     locale = "en";
   }
-  console.log(pathname);
+
+  console.log("currentUrl", pathname);
+  console.log("locale", locale);
 
   return (
     <nav className="absolute flex items-center justify-between flex-wrap lg:px-40  px-2    py-5  w-full z-10 top-0 ">
@@ -83,7 +84,7 @@ const Navbar = () => {
           <li className="mr-3">
             <Link
               className="inline-block py-2 px-4 text-white no-underline "
-              href={`/${locale}/search`}
+              href={`${locale}/search`}
             >
               {t("Menu2")}
             </Link>
@@ -124,13 +125,14 @@ const Navbar = () => {
           <li className="mt-4 lg:mt-0 ml-4 flex gap-2 items-center">
             <Image src={GlobeIcon} alt={"Language Icon"} />
 
-            <Link className={"text-white"} href="/en/" locale="en">
+            <a className={"text-white"} href="/en/">
               en
-            </Link>
+            </a>
+
             <span className={"h-5 w-0.5 bg-white/60"}></span>
-            <Link className={"text-white/30"} href="/es/" locale="es">
+            <a className={"text-white/30"} href="/es/">
               Es
-            </Link>
+            </a>
           </li>
         </ul>
       </div>

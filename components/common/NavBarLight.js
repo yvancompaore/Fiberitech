@@ -6,6 +6,7 @@ import Logo from "@/public/assets/images/logo-black.png";
 import Link from "next/link";
 import { RxCross1 } from "react-icons/rx";
 import { useTranslations } from "next-intl";
+import { parse, compile } from "path-to-regexp";
 import { useLocale, useMessages } from "next-intl";
 
 import { usePathname, useSearchParams } from "next/navigation";
@@ -13,15 +14,20 @@ import { usePathname, useSearchParams } from "next/navigation";
 const NavbarLight = () => {
   const [isVisible, setIsVisible] = useState(false);
   const t = useTranslations("NavBar");
-  //const locale = useLocale();
-  var locale;
   const pathname = usePathname();
-  if (pathname == "/es") {
+  const pattern = "/es";
+  const match = compile(pattern);
+
+  const params = parse(pathname);
+  var locale;
+  const regex = /^\/es/;
+  if (regex.test(pathname)) {
+    console.log("Trouvé : ", pathname);
     locale = "es";
   } else {
+    console.log("Pas trouvé : ", pathname);
     locale = "en";
   }
-  console.log(pathname);
 
   return (
     <nav className="absolute flex items-center justify-between flex-wrap lg:px-40  px-2    py-5  w-full z-10 top-0 ">
@@ -80,7 +86,7 @@ const NavbarLight = () => {
           <li className="mr-3">
             <Link
               className="inline-block py-2 px-4  no-underline "
-              href={`/${locale}/search`}
+              href={`${locale}/search`}
             >
               {t("Menu2")}
             </Link>
@@ -107,7 +113,7 @@ const NavbarLight = () => {
           <li className="mr-3">
             <a
               className="inline-block py-2 px-4  no-underline rounded-full border border-[#158319] "
-              href={"/" + locale + "#contact"}
+              href={"/#contact"}
             >
               {t("Menu6")}
             </a>
