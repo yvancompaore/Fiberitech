@@ -79,7 +79,7 @@ const NavbarLight = () => {
 
         <ul className="list-reset lg:flex justify-end flex-1 items-center text-xl tracking-wider">
           <li className="mr-3">
-            <Link className="inline-block py-2 px-4  no-underline " href="/">
+            <Link className="inline-block py-2 px-4  no-underline " href={`/${locale}/`}>
               {t("Menu1")}
             </Link>
           </li>
