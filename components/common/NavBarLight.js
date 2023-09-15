@@ -79,9 +79,9 @@ const NavbarLight = () => {
 
         <ul className="list-reset lg:flex justify-end flex-1 items-center text-xl tracking-wider">
           <li className="mr-3">
-            <a className="inline-block py-2 px-4  no-underline " href="/">
+            <Link className="inline-block py-2 px-4  no-underline " href="/">
               {t("Menu1")}
-            </a>
+            </Link>
           </li>
           <li className="mr-3">
             <Link
