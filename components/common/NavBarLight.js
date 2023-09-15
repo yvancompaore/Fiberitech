@@ -1,9 +1,10 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
+
 import GlobeIcon from "@/public/assets/images/globe.svg";
 import Logo from "@/public/assets/images/logo-black.png";
-import Link from "next/link";
+import Link from 'next-intl/link';
 import { RxCross1 } from "react-icons/rx";
 import { useTranslations } from "next-intl";
 import { parse, compile } from "path-to-regexp";
@@ -79,14 +80,14 @@ const NavbarLight = () => {
 
         <ul className="list-reset lg:flex justify-end flex-1 items-center text-xl tracking-wider">
           <li className="mr-3">
-            <Link className="inline-block py-2 px-4  no-underline " href={`/${locale}/`}>
+            <Link className="inline-block py-2 px-4  no-underline " href="/">
               {t("Menu1")}
             </Link>
           </li>
           <li className="mr-3">
             <Link
               className="inline-block py-2 px-4  no-underline "
-              href={`/${locale}/search`}
+              href={`/search`}
             >
               {t("Menu2")}
             </Link>
@@ -120,11 +121,11 @@ const NavbarLight = () => {
           </li>
           <li className="mt-4 lg:mt-0 ml-4 flex gap-2 items-center">
             <Image src={GlobeIcon} alt={"Language Icon"} />
-            <Link className={"text-black"} href="/en/" locale="en">
+            <Link className={"text-black"} href="/" locale="en">
               en
             </Link>
             <span className={"h-5 w-0.5 bg-black/60"}></span>
-            <Link className={"text-black/30"} href="/es/" locale="es">
+            <Link className={"text-black/30"} href="/" locale="es">
               Es
             </Link>
           </li>

@@ -1462,3 +1462,10 @@ export const categories = [
     image: "/assets/images/categories/pigtails.png",
   },
 ];
+
+
+
+
+export const getLocale=(pathName)=>{
+  return pathName.split('/')[1]
+}

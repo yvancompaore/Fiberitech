@@ -1,4 +1,5 @@
 import createMiddleware from "next-intl/middleware";
+import { pathnames } from "./intl/navigation";
 
 export default createMiddleware({
   // A list of all locales that are supported
@@ -6,6 +7,7 @@ export default createMiddleware({
 
   // If this locale is matched, pathnames work without a prefix (e.g. `/about`)
   defaultLocale: "en",
+  pathnames:pathnames
 });
 
 export const config = {
