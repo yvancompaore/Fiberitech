@@ -4,6 +4,8 @@ import Button from "@/components/common/Button";
 import { useTranslations } from "next-intl";
 import { useLocale, useMessages } from "next-intl";
 import { useState } from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const ContactUs = () => {
   const t = useTranslations("Contact");
@@ -74,7 +76,7 @@ const ContactUs = () => {
     setIsSubmitDisabled(!isFormValid);
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
     const { email, phone } = formData;
@@ -91,6 +93,37 @@ const ContactUs = () => {
       return;
     } else {
       setPhoneError("");
+    }
+
+    // Vous pouvez maintenant traiter les données du formulaire car elles sont valides
+    console.log("Données soumises :", formData);
+
+    try {
+      const response = await fetch("/api/hello", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        console.log("Email sent successfully");
+        toast.success("Email sent successfully", {
+          position: "top-right",
+          autoClose: 3000, // Close after 3 seconds
+        });
+        // Optionally, you can redirect or show a success message here.
+      } else {
+        console.error("Failed to send email");
+        console.log("ehhh");
+        toast.error("Failed to send email", {
+          position: "top-right",
+          autoClose: 3000, // Close after 3 seconds
+        });
+      }
+    } catch (error) {
+      console.error("Error sending email:", error);
     }
 
     // Vous pouvez maintenant traiter les données du formulaire car elles sont valides
