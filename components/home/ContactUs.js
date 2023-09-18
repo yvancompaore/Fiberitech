@@ -23,6 +23,8 @@ const ContactUs = () => {
   const [phoneError, setPhoneError] = useState("");
   const [isSubmitDisabled, setIsSubmitDisabled] = useState(true);
   const [touchedFields, setTouchedFields] = useState({});
+  const [isLoading, setIsLoading] = useState(false);
+
   const router = useRouter();
 
   const handleChange = (e) => {
@@ -97,6 +99,8 @@ const ContactUs = () => {
       setPhoneError("");
     }
 
+    setIsLoading(true); // Set loading to true when submitting
+
     // Vous pouvez maintenant traiter les données du formulaire car elles sont valides
     console.log("Données soumises :", formData);
 
@@ -118,7 +122,7 @@ const ContactUs = () => {
 
         // Vous pouvez maintenant traiter les données du formulaire car elles sont valides
         console.log("Données soumises :", formData);
-
+        setIsLoading(false);
         router.push("/");
         // Optionally, you can redirect or show a success message here.
       } else {
@@ -128,6 +132,7 @@ const ContactUs = () => {
           position: "top-right",
           autoClose: 3000, // Close after 3 seconds
         });
+        setIsLoading(false);
       }
     } catch (error) {
       console.error("Error sending email:", error);
@@ -239,9 +244,9 @@ const ContactUs = () => {
         <Button
           type="submit"
           className={`bg-blue-500 text-white py-3 px-4 rounded hover:bg-blue-600 ${
-            isSubmitDisabled ? "opacity-50 cursor-not-allowed" : ""
+            isLoading ? "opacity-50 cursor-not-allowed" : ""
           }`}
-          disabled={isSubmitDisabled}
+          disabled={isSubmitDisabled || isLoading}
         >
           {t("Submit")}
         </Button>

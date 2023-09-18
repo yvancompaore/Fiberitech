@@ -18,8 +18,13 @@ import ProductReviews from "@/components/product/ProductReviews";
 import RelatedProducts from "@/components/product/RelatedProducts";
 import ProductOverview from "@/components/product/ProductOverview";
 
+import { getLocale } from "@/utils/constants";
+
 const ProductPage = ({ params }) => {
   const product = products.find((product) => product.slug === params.slug);
+  const locale = getLocale(pathname);
+
+  console.log("locale product", locale);
   return (
     <main className=" w-full l">
       <NavBarLight />

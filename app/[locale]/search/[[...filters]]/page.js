@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 
 import NavBarLight from "@/components/common/NavBarLight";
@@ -15,9 +16,12 @@ import Cable from "@/public/assets/images/categories/cable.png";
 import Image from "next/image";
 import CategoryItem from "@/components/search/CategoryItem";
 import SearchProducts from "@/components/search/SearchProducts";
+import { getLocale } from "@/utils/constants";
 
 import { useTranslations } from "next-intl";
 import { useLocale, useMessages } from "next-intl";
+
+import { usePathname, useSearchParams } from "next/navigation";
 
 const SearchPage = ({ params }) => {
   const categorySlug =
@@ -26,7 +30,9 @@ const SearchPage = ({ params }) => {
       : categories[0].slug;
 
   const t = useTranslations("Footer");
-  const locale = useLocale();
+  const pathname = usePathname();
+  const locale = getLocale(pathname);
+  console.log("locale product", locale);
 
   return (
     <main className=" w-full l">
