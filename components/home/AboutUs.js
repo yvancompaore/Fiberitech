@@ -1,6 +1,7 @@
 import React from "react";
 
 import AboutUsImage from "@/public/assets/images/about-us.png";
+import AboutUsImage2 from "@/public/assets/images/aboutUs2.png";
 import Image from "next/image";
 import Button from "@/components/common/Button";
 import { useTranslations } from "next-intl";
@@ -16,7 +17,7 @@ const AboutUs = () => {
       <div className="flex w-full flex-col md:flex-row ">
         <div className="flex-1">
           <Image
-            src={AboutUsImage}
+            src={AboutUsImage2}
             alt={"About us image"}
             width={550}
             height={550}
