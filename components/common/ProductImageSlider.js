@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { FreeMode, Navigation, Thumbs } from "swiper/modules";
+import { Autoplay, FreeMode, Navigation, Thumbs } from "swiper/modules";
 import Image from "next/image";
 
 const ProductImageSlider = ({ product }) => {
@@ -14,10 +14,14 @@ const ProductImageSlider = ({ product }) => {
           "--swiper-pagination-color": "#333333",
         }}
         loop={true}
+        autoplay={{
+          delay: 1500,
+          disableOnInteraction: false,
+        }}
         spaceBetween={10}
         navigation={true}
         thumbs={{ swiper: thumbsSwiper }}
-        modules={[FreeMode, Navigation, Thumbs]}
+        modules={[FreeMode, Navigation, Thumbs, Autoplay]}
         className="mySwiper2"
       >
         {product.images.map((image) => (
@@ -40,8 +44,12 @@ const ProductImageSlider = ({ product }) => {
         spaceBetween={10}
         slidesPerView={4}
         freeMode={true}
+        autoplay={{
+          delay: 1500,
+          disableOnInteraction: false,
+        }}
         watchSlidesProgress={true}
-        modules={[FreeMode, Navigation, Thumbs]}
+        modules={[FreeMode, Navigation, Thumbs, Autoplay]}
         className="mySwiper mt-6"
       >
         {product.images.map((image) => (

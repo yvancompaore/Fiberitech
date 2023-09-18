@@ -1,6 +1,6 @@
 "use client";
-import React from "react";
-import { Pagination } from "swiper/modules";
+import React, { useEffect, useState } from "react";
+import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
@@ -14,6 +14,13 @@ import { useLocale, useMessages } from "next-intl";
 const Products = () => {
   const t = useTranslations("Product");
   const locale = useLocale();
+  const [isLoaded, setLoaded] = useState(false);
+  useEffect(() => {
+    setTimeout(() => {
+      setLoaded(true);
+    }, 30);
+  }, []);
+
   return (
     <div
       id={"products"}
@@ -53,8 +60,14 @@ const Products = () => {
         pagination={{
           clickable: true,
         }}
-        modules={[Pagination]}
-        className="mySwiper  m-auto mt-5 lg:h-96"
+        autoplay={{
+          delay: 1500,
+          disableOnInteraction: false,
+        }}
+        modules={[Pagination, Autoplay]}
+        className={`mySwiper  m-auto mt-5 lg:h-96 anim-r-to-l ${
+          isLoaded ? "loaded" : ""
+        }`}
       >
         {products.map((product) => (
           <SwiperSlide className={"py-8"} key={product.title}>
@@ -87,11 +100,15 @@ const Products = () => {
           },
         }}
         spaceBetween={30}
+        autoplay={{
+          delay: 1500,
+          disableOnInteraction: false,
+        }}
         pagination={{
           clickable: true,
         }}
-        modules={[Pagination]}
-        className="mySwiper lg:h-96"
+        modules={[Pagination, Autoplay]}
+        className={`mySwiper lg:h-96  anim-l-to-r ${isLoaded ? "loaded" : ""}`}
       >
         {products
           .sort(() => 0.5 - Math.random())

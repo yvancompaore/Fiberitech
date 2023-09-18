@@ -16,7 +16,7 @@ const Product = ({
     <Link href={"/product/" + slug}>
       <div
         className={
-          "flex justify-center items-center flex-col cursor-pointer p-2 "
+          "flex justify-center items-center flex-col cursor-pointer p-2 hover:scale-105 transition-all duration-200 "
         }
       >
         <Image
