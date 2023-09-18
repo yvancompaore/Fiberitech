@@ -1324,6 +1324,1280 @@ export const faqsEn = [
   },
 ];
 
+export const productsEs = [
+  //Boxes
+  {
+    title: "BPEO 4",
+    price: 599,
+    rating: 3,
+    slug: "product-1",
+    description:
+      "Este boitier permite la conexión de cables de distribución vertical o alimentadores ópticos para redes FTTH a un terminal montado en la pared o en un poste, para aplicaciones en exteriores o interiores.",
+    features: [
+      {
+        id: 1,
+        title: "With high-quality membranes",
+        description:
+          "We provide top-quality membranes that ensure effective and reliable separation processes, contributing to enhanced productivity and reduced downtime.",
+      },
+      {
+        id: 2,
+        title: "Enhanced Filtration Efficiency",
+        description:
+          "Our LC Connector offers enhanced filtration efficiency, resulting in cleaner and purer outcomes for your industrial applications.",
+      },
+      {
+        id: 3,
+        title: "Streamlined and Cost-effective",
+        description:
+          "Our LC Connector is designed for cost-effectiveness without compromising on quality. It helps you save on operational costs while achieving superior results.",
+      },
+    ],
+    category: "Boxes", // Assigned to the "Boxes" category
+    reviews: [
+      {
+        description:
+          "Your Crossflow Filtration Experts. Innovative solutions for efficient separation processes. Trust.",
+        user: {
+          avatar: "/assets/images/user.png",
+          name: "John Doe",
+        },
+        rating: 3,
+      },
+    ],
+    image: "/assets/images/products/BPEO4.png",
+    images: ["/assets/images/products/BPEO4.png"],
+  },
+  {
+    title: "BPEO 8",
+    price: 599,
+    rating: 3,
+    slug: "product-2",
+    description:
+      "Este boitier permite la conexión de cables de distribución vertical o alimentadores ópticos para redes FTTH a un terminal montado en la pared o en un poste, para aplicaciones en exteriores o interiores.",
+    features: [
+      {
+        id: 1,
+        title: "With high-quality membranes",
+        description:
+          "We provide top-quality membranes that ensure effective and reliable separation processes, contributing to enhanced productivity and reduced downtime.",
+      },
+      {
+        id: 2,
+        title: "Enhanced Filtration Efficiency",
+        description:
+          "Our LC Connector offers enhanced filtration efficiency, resulting in cleaner and purer outcomes for your industrial applications.",
+      },
+      {
+        id: 3,
+        title: "Streamlined and Cost-effective",
+        description:
+          "Our LC Connector is designed for cost-effectiveness without compromising on quality. It helps you save on operational costs while achieving superior results.",
+      },
+    ],
+    category: "Boxes", // Assigned to the "Boxes" category
+    reviews: [
+      {
+        description:
+          "Your Crossflow Filtration Experts. Innovative solutions for efficient separation processes. Trust.",
+        user: {
+          avatar: "/assets/images/user.png",
+          name: "John Doe",
+        },
+        rating: 3,
+      },
+    ],
+    image: "/assets/images/products/BPEO8.png",
+    images: ["/assets/images/products/BPEO8.png"],
+  },
+  {
+    title: "BPEO 12",
+    price: 599,
+    rating: 3,
+    slug: "product-3",
+    description:
+      "Este boitier permite la conexión de cables de distribución vertical o alimentadores ópticos para redes FTTH a un terminal montado en la pared o en un poste, para aplicaciones en exteriores o interiores.",
+    features: [
+      {
+        id: 1,
+        title: "With high-quality membranes",
+        description:
+          "We provide top-quality membranes that ensure effective and reliable separation processes, contributing to enhanced productivity and reduced downtime.",
+      },
+      {
+        id: 2,
+        title: "Enhanced Filtration Efficiency",
+        description:
+          "Our LC Connector offers enhanced filtration efficiency, resulting in cleaner and purer outcomes for your industrial applications.",
+      },
+      {
+        id: 3,
+        title: "Streamlined and Cost-effective",
+        description:
+          "Our LC Connector is designed for cost-effectiveness without compromising on quality. It helps you save on operational costs while achieving superior results.",
+      },
+    ],
+    category: "Boxes", // Assigned to the "Boxes" category
+    reviews: [
+      {
+        description:
+          "Your Crossflow Filtration Experts. Innovative solutions for efficient separation processes. Trust.",
+        user: {
+          avatar: "/assets/images/user.png",
+          name: "John Doe",
+        },
+        rating: 3,
+      },
+    ],
+    image: "/assets/images/products/BPEO12.png",
+    images: ["/assets/images/products/BPEO12.png"],
+  },
+  {
+    title: "BPEO 3M",
+    price: 599,
+    rating: 3,
+    slug: "product-4",
+    description:
+      "Este boitier de distribución exterior es altamente versátil. Su tamaño compacto le permite cumplir con los requisitos de espacio y discreción. Capacidad máxima: 48 empalmes (4 cassettes de 5 mm 12FO). Configuración: 1 cable de bajada con paso, 12 cables de conexión al cliente, instalación aérea en postes o fachadas.",
+    features: [
+      {
+        id: 1,
+        title: "With high-quality membranes",
+        description:
+          "We provide top-quality membranes that ensure effective and reliable separation processes, contributing to enhanced productivity and reduced downtime.",
+      },
+      {
+        id: 2,
+        title: "Enhanced Filtration Efficiency",
+        description:
+          "Our LC Connector offers enhanced filtration efficiency, resulting in cleaner and purer outcomes for your industrial applications.",
+      },
+      {
+        id: 3,
+        title: "Streamlined and Cost-effective",
+        description:
+          "Our LC Connector is designed for cost-effectiveness without compromising on quality. It helps you save on operational costs while achieving superior results.",
+      },
+    ],
+    category: "Boxes", // Assigned to the "Boxes" category
+    reviews: [
+      {
+        description:
+          "Your Crossflow Filtration Experts. Innovative solutions for efficient separation processes. Trust.",
+        user: {
+          avatar: "/assets/images/user.png",
+          name: "John Doe",
+        },
+        rating: 3,
+      },
+    ],
+    image: "/assets/images/products/BPEO3M.png",
+    images: ["/assets/images/products/BPEO3M.png"],
+  },
+  {
+    title: "TO 3M Junction Box",
+    price: 599,
+    rating: 3,
+    slug: "product-5",
+    description:
+      "La caja de protección de empalmes a prueba de agua, tamaño BPEO 0, está diseñada para conexiones de suscriptores en redes FTTH de fibra G.652 o G.657. Para verificar la compatibilidad de nuestros ECAMs con este BPEO",
+    features: [
+      {
+        id: 1,
+        title: "With high-quality membranes",
+        description:
+          "We provide top-quality membranes that ensure effective and reliable separation processes, contributing to enhanced productivity and reduced downtime.",
+      },
+      {
+        id: 2,
+        title: "Enhanced Filtration Efficiency",
+        description:
+          "Our LC Connector offers enhanced filtration efficiency, resulting in cleaner and purer outcomes for your industrial applications.",
+      },
+      {
+        id: 3,
+        title: "Streamlined and Cost-effective",
+        description:
+          "Our LC Connector is designed for cost-effectiveness without compromising on quality. It helps you save on operational costs while achieving superior results.",
+      },
+    ],
+    category: "Boxes", // Assigned to the "Boxes" category
+    reviews: [
+      {
+        description:
+          "Your Crossflow Filtration Experts. Innovative solutions for efficient separation processes. Trust.",
+        user: {
+          avatar: "/assets/images/user.png",
+          name: "John Doe",
+        },
+        rating: 3,
+      },
+    ],
+    image: "/assets/images/products/BoitierDeJonction3MT0.png",
+    images: ["/assets/images/products/BoitierDeJonction3MT0.png"],
+  },
+  {
+    title: "T1-EOC Caja de Empalme 3M",
+    price: 599,
+    rating: 3,
+    slug: "product-6",
+    description: "T1-EOC Caja de Empalme 3M",
+    features: [
+      {
+        id: 1,
+        title: "With high-quality membranes",
+        description:
+          "We provide top-quality membranes that ensure effective and reliable separation processes, contributing to enhanced productivity and reduced downtime.",
+      },
+      {
+        id: 2,
+        title: "Enhanced Filtration Efficiency",
+        description:
+          "Our LC Connector offers enhanced filtration efficiency, resulting in cleaner and purer outcomes for your industrial applications.",
+      },
+      {
+        id: 3,
+        title: "Streamlined and Cost-effective",
+        description:
+          "Our LC Connector is designed for cost-effectiveness without compromising on quality. It helps you save on operational costs while achieving superior results.",
+      },
+    ],
+    category: "Boxes", // Assigned to the "Boxes" category
+    reviews: [
+      {
+        description:
+          "Your Crossflow Filtration Experts. Innovative solutions for efficient separation processes. Trust.",
+        user: {
+          avatar: "/assets/images/user.png",
+          name: "John Doe",
+        },
+        rating: 3,
+      },
+    ],
+    image: "/assets/images/products/BoitierDeJonctionT1EOC3M.png",
+    images: ["/assets/images/products/BoitierDeJonctionT1EOC3M.png"],
+  },
+  {
+    title: "Caja de Empalme 24-144",
+    price: 599,
+    rating: 3,
+    slug: "product-7",
+    description:
+      "El cierre es lo suficientemente espacioso como para enrollar y almacenar fibras, permitiendo la ramificación. Los casetes de empalme de fibra de estilo Flip están diseñados con un radio curvado para cumplir con las normas internacionales. Fácil y rápido de aumentar y disminuir los casetes de empalme. Innovadora junta de sellado elástica incorporada ISO9001: 2008, cumple con ROHS.",
+    features: [
+      {
+        id: 1,
+        title: "With high-quality membranes",
+        description:
+          "We provide top-quality membranes that ensure effective and reliable separation processes, contributing to enhanced productivity and reduced downtime.",
+      },
+      {
+        id: 2,
+        title: "Enhanced Filtration Efficiency",
+        description:
+          "Our LC Connector offers enhanced filtration efficiency, resulting in cleaner and purer outcomes for your industrial applications.",
+      },
+      {
+        id: 3,
+        title: "Streamlined and Cost-effective",
+        description:
+          "Our LC Connector is designed for cost-effectiveness without compromising on quality. It helps you save on operational costs while achieving superior results.",
+      },
+    ],
+    category: "Boxes", // Assigned to the "Boxes" category
+    reviews: [
+      {
+        description:
+          "Your Crossflow Filtration Experts. Innovative solutions for efficient separation processes. Trust.",
+        user: {
+          avatar: "/assets/images/user.png",
+          name: "John Doe",
+        },
+        rating: 3,
+      },
+    ],
+    image: "/assets/images/products/BoitierDeJonction24-144.png",
+    images: ["/assets/images/products/BoitierDeJonction24-144.png"],
+  },
+  {
+    title: "Cúpulas de Encapsulamiento",
+    price: 599,
+    rating: 3,
+    slug: "product-8",
+    description:
+      "Las cúpulas impermeables de fibra óptica se utilizan para la conexión protectora de la distribución de dos o más cables ópticos y fibras ópticas. Son uno de los dispositivos comúnmente utilizados en puntos de acceso de usuarios, empleados para conexiones exteriores entre el cable de distribución óptica y el cable óptico interior. Disponibles para aplicaciones de antena, conducción y entierro directo.",
+    features: [
+      {
+        id: 1,
+        title: "With high-quality membranes",
+        description:
+          "We provide top-quality membranes that ensure effective and reliable separation processes, contributing to enhanced productivity and reduced downtime.",
+      },
+      {
+        id: 2,
+        title: "Enhanced Filtration Efficiency",
+        description:
+          "Our LC Connector offers enhanced filtration efficiency, resulting in cleaner and purer outcomes for your industrial applications.",
+      },
+      {
+        id: 3,
+        title: "Streamlined and Cost-effective",
+        description:
+          "Our LC Connector is designed for cost-effectiveness without compromising on quality. It helps you save on operational costs while achieving superior results.",
+      },
+    ],
+    category: "Boxes", // Assigned to the "Boxes" category
+    reviews: [
+      {
+        description:
+          "Your Crossflow Filtration Experts. Innovative solutions for efficient separation processes. Trust.",
+        user: {
+          avatar: "/assets/images/user.png",
+          name: "John Doe",
+        },
+        rating: 3,
+      },
+    ],
+    image: "/assets/images/products/BoitierDomes.png",
+    images: ["/assets/images/products/BoitierDomes.png"],
+  },
+  {
+    title: "Caja de Punto de Entrada en Edificio (BPI)",
+    price: 599,
+    rating: 3,
+    slug: "product-9",
+    description:
+      "El BPI de 3M es una caja de distribución interior para redes FTTH. Con un sistema escalable de gestión de fibras, este punto de conexión intermedio puede acomodar hasta 48 suscriptores. Optimizando el enrollamiento de fibras a través de una innovadora trayectoria de cable, la instalación de fibras de radio de curvatura bajo (G.657) es más rápida y duradera, lo que permite una activación de servicio inmediata. El BPI incluye áreas de enrollamiento para gestionar fibras conectadas y tubos en espera de manera independiente. Las fibras de 250μm se almacenan en los casetes orientados hacia adelante. El BPI se puede instalar en un conducto técnico o montarse en superficie junto a una canalización. Está diseñado para conexiones de empalme por fusión desde el cable de ascensor hasta los cables de los suscriptores.",
+    features: [
+      {
+        id: 1,
+        title: "With high-quality membranes",
+        description:
+          "We provide top-quality membranes that ensure effective and reliable separation processes, contributing to enhanced productivity and reduced downtime.",
+      },
+      {
+        id: 2,
+        title: "Enhanced Filtration Efficiency",
+        description:
+          "Our LC Connector offers enhanced filtration efficiency, resulting in cleaner and purer outcomes for your industrial applications.",
+      },
+      {
+        id: 3,
+        title: "Streamlined and Cost-effective",
+        description:
+          "Our LC Connector is designed for cost-effectiveness without compromising on quality. It helps you save on operational costs while achieving superior results.",
+      },
+    ],
+    category: "Boxes", // Assigned to the "Boxes" category
+    reviews: [
+      {
+        description:
+          "Your Crossflow Filtration Experts. Innovative solutions for efficient separation processes. Trust.",
+        user: {
+          avatar: "/assets/images/user.png",
+          name: "John Doe",
+        },
+        rating: 3,
+      },
+    ],
+    image: "/assets/images/products/BPI.png",
+    images: ["/assets/images/products/BPI.png"],
+  },
+
+  //Cables
+  {
+    title: "Cable de Conexión de Abonado de Doble Funda",
+    price: 599,
+    rating: 3,
+    slug: "product-10",
+    description:
+      "Este cable óptico de doble funda se utiliza para conectar el punto de acceso exterior con la salida del abonado en interiores. Su estructura de fácil desforre permite la instalación tanto en aplicaciones subterráneas como aéreas (gracias a su funda exterior de PEHD) y en interiores hasta el abonado (gracias a su funda interior LSZH).",
+    features: [
+      {
+        id: 1,
+        title: "With high-quality membranes",
+        description:
+          "We provide top-quality membranes that ensure effective and reliable separation processes, contributing to enhanced productivity and reduced downtime.",
+      },
+      {
+        id: 2,
+        title: "Enhanced Filtration Efficiency",
+        description:
+          "Our LC Connector offers enhanced filtration efficiency, resulting in cleaner and purer outcomes for your industrial applications.",
+      },
+      {
+        id: 3,
+        title: "Streamlined and Cost-effective",
+        description:
+          "Our LC Connector is designed for cost-effectiveness without compromising on quality. It helps you save on operational costs while achieving superior results.",
+      },
+    ],
+    category: "Cable", // Assigned to the "Boxes" category
+    reviews: [
+      {
+        description:
+          "Your Crossflow Filtration Experts. Innovative solutions for efficient separation processes. Trust.",
+        user: {
+          avatar: "/assets/images/user.png",
+          name: "John Doe",
+        },
+        rating: 3,
+      },
+    ],
+    image: "/assets/images/products/CablesAbonneDoubleGaine.png",
+    images: ["/assets/images/products/CablesAbonneDoubleGaine.png"],
+  },
+  {
+    title: "Cable SM/MM de 12 a 144 Fibras",
+    price: 599,
+    rating: 3,
+    slug: "product-11",
+    description:
+      "Buen rendimiento mecánico y térmico, tubo suelto de alta resistencia a la hidrólisis, compuesto especial de llenado de tubos que proporciona una protección crítica de las fibras, resistencia al aplastamiento y flexibilidad. Se toman las siguientes medidas para sellar el cable: compuesto de llenado de tubo a granel, llenado del núcleo del cable al 100%, PSP/PAP para resistencia a la humedad y alambre de acero utilizado como miembro central de resistencia.",
+    features: [
+      {
+        id: 1,
+        title: "With high-quality membranes",
+        description:
+          "We provide top-quality membranes that ensure effective and reliable separation processes, contributing to enhanced productivity and reduced downtime.",
+      },
+      {
+        id: 2,
+        title: "Enhanced Filtration Efficiency",
+        description:
+          "Our LC Connector offers enhanced filtration efficiency, resulting in cleaner and purer outcomes for your industrial applications.",
+      },
+      {
+        id: 3,
+        title: "Streamlined and Cost-effective",
+        description:
+          "Our LC Connector is designed for cost-effectiveness without compromising on quality. It helps you save on operational costs while achieving superior results.",
+      },
+    ],
+    category: "Cable", // Assigned to the "Boxes" category
+    reviews: [
+      {
+        description:
+          "Your Crossflow Filtration Experts. Innovative solutions for efficient separation processes. Trust.",
+        user: {
+          avatar: "/assets/images/user.png",
+          name: "John Doe",
+        },
+        rating: 3,
+      },
+    ],
+    image: "/assets/images/products/CablesSM-MM12A144.png",
+    images: ["/assets/images/products/CablesSM-MM12A144.png"],
+  },
+  {
+    title: "Cable ADSS SM/MM de 24 a 288 Fibras",
+    price: 599,
+    rating: 3,
+    slug: "product-12",
+    description:
+      "Este cable óptico de fibra al aire libre sin blindaje utiliza múltiples fibras de amortiguación resistentes al agua y al fuego como medio de comunicación opcional. La fibra de amortiguación resistente al agua está cubierta con una capa de aramida, y el cable se completa con una funda resistente al fuego y químicamente resistente. Está compuesto por FRP altamente reforzado y flexible, con el miembro central de resistencia asegurando la fuerza y las características de flexión del cable. Una capa de aramida proporciona una resistencia mecánica extremadamente alta a la fibra óptica, y toda la estructura dieléctrica la protege de las influencias electromagnéticas.",
+    features: [
+      {
+        id: 1,
+        title: "With high-quality membranes",
+        description:
+          "We provide top-quality membranes that ensure effective and reliable separation processes, contributing to enhanced productivity and reduced downtime.",
+      },
+      {
+        id: 2,
+        title: "Enhanced Filtration Efficiency",
+        description:
+          "Our LC Connector offers enhanced filtration efficiency, resulting in cleaner and purer outcomes for your industrial applications.",
+      },
+      {
+        id: 3,
+        title: "Streamlined and Cost-effective",
+        description:
+          "Our LC Connector is designed for cost-effectiveness without compromising on quality. It helps you save on operational costs while achieving superior results.",
+      },
+    ],
+    category: "Cable", // Assigned to the "Boxes" category
+    reviews: [
+      {
+        description:
+          "Your Crossflow Filtration Experts. Innovative solutions for efficient separation processes. Trust.",
+        user: {
+          avatar: "/assets/images/user.png",
+          name: "John Doe",
+        },
+        rating: 3,
+      },
+    ],
+    image: "/assets/images/products/CableSM-MM24A288.png",
+    images: ["/assets/images/products/CableSM-MM24A288.png"],
+  },
+  {
+    title: "Cable ADSS SM/MM de 12 a 96 Fibras",
+    price: 599,
+    rating: 3,
+    slug: "product-13",
+    description:
+      "Este cable ADSS aéreo de doble capa se utiliza para la comunicación dentro del sistema de transmisión eléctrica de alta tensión en tendidos aéreos y también puede usarse como cable de comunicación en áreas donde son comunes las tormentas eléctricas o las largas distancias.",
+    features: [
+      {
+        id: 1,
+        title: "With high-quality membranes",
+        description:
+          "We provide top-quality membranes that ensure effective and reliable separation processes, contributing to enhanced productivity and reduced downtime.",
+      },
+      {
+        id: 2,
+        title: "Enhanced Filtration Efficiency",
+        description:
+          "Our LC Connector offers enhanced filtration efficiency, resulting in cleaner and purer outcomes for your industrial applications.",
+      },
+      {
+        id: 3,
+        title: "Streamlined and Cost-effective",
+        description:
+          "Our LC Connector is designed for cost-effectiveness without compromising on quality. It helps you save on operational costs while achieving superior results.",
+      },
+    ],
+    category: "Cable", // Assigned to the "Boxes" category
+    reviews: [
+      {
+        description:
+          "Your Crossflow Filtration Experts. Innovative solutions for efficient separation processes. Trust.",
+        user: {
+          avatar: "/assets/images/user.png",
+          name: "John Doe",
+        },
+        rating: 3,
+      },
+    ],
+    image: "/assets/images/products/CablesSM-MM12A96.png",
+    images: ["/assets/images/products/CablesSM-MM12A96.png"],
+  },
+  {
+    title: "Cable ADSS SM/MM de 02 a 12 Fibras",
+    price: 599,
+    rating: 3,
+    slug: "product-14",
+    description:
+      "Este cable blindado es adecuado para diversas redes de telecomunicaciones, incluyendo redes de larga distancia, urbanas, de distribución y de acceso. Su diseño compacto ayuda a reducir los costos de instalación y es resistente al daño causado por roedores.",
+    features: [
+      {
+        id: 1,
+        title: "With high-quality membranes",
+        description:
+          "We provide top-quality membranes that ensure effective and reliable separation processes, contributing to enhanced productivity and reduced downtime.",
+      },
+      {
+        id: 2,
+        title: "Enhanced Filtration Efficiency",
+        description:
+          "Our LC Connector offers enhanced filtration efficiency, resulting in cleaner and purer outcomes for your industrial applications.",
+      },
+      {
+        id: 3,
+        title: "Streamlined and Cost-effective",
+        description:
+          "Our LC Connector is designed for cost-effectiveness without compromising on quality. It helps you save on operational costs while achieving superior results.",
+      },
+    ],
+    category: "Cable", // Assigned to the "Boxes" category
+    reviews: [
+      {
+        description:
+          "Your Crossflow Filtration Experts. Innovative solutions for efficient separation processes. Trust.",
+        user: {
+          avatar: "/assets/images/user.png",
+          name: "John Doe",
+        },
+        rating: 3,
+      },
+    ],
+    image: "/assets/images/products/CablesSM-MM02A12.png",
+    images: ["/assets/images/products/CablesSM-MM02A12.png"],
+  },
+  {
+    title: "Cable SM/MM de 02 a 24 Fibras",
+    price: 599,
+    rating: 3,
+    slug: "product-15",
+    description:
+      "Este cable reforzado es adecuado tanto para instalaciones en conductos como para entierro directo en diversas redes de telecomunicaciones, incluyendo redes de larga distancia, urbanas, de distribución y de acceso. Su diseño compacto ayuda a reducir los costos de instalación y se puede personalizar para cumplir con requisitos específicos o especificaciones técnicas del operador.",
+    features: [
+      {
+        id: 1,
+        title: "With high-quality membranes",
+        description:
+          "We provide top-quality membranes that ensure effective and reliable separation processes, contributing to enhanced productivity and reduced downtime.",
+      },
+      {
+        id: 2,
+        title: "Enhanced Filtration Efficiency",
+        description:
+          "Our LC Connector offers enhanced filtration efficiency, resulting in cleaner and purer outcomes for your industrial applications.",
+      },
+      {
+        id: 3,
+        title: "Streamlined and Cost-effective",
+        description:
+          "Our LC Connector is designed for cost-effectiveness without compromising on quality. It helps you save on operational costs while achieving superior results.",
+      },
+    ],
+    category: "Cable", // Assigned to the "Boxes" category
+    reviews: [
+      {
+        description:
+          "Your Crossflow Filtration Experts. Innovative solutions for efficient separation processes. Trust.",
+        user: {
+          avatar: "/assets/images/user.png",
+          name: "John Doe",
+        },
+        rating: 3,
+      },
+    ],
+    image: "/assets/images/products/CableSM-MM02a24.png",
+    images: ["/assets/images/products/CableSM-MM02a24.png"],
+  },
+
+  //CONNECTOR
+  {
+    title: "Conectores FC",
+    price: 599,
+    rating: 3,
+    slug: "product-16",
+    description:
+      "Sistema de Conexión Tipo Tornillo  Ferrula de Cerámica (ZrO2) - Diámetro de 2.5 mm  Compatible con toda nuestra gama de adaptadores FC  Cumple con las normas IEC-61754-13  Cumple con las directivas RoHS y REACH SVHC. El conector FC se caracteriza por su pequeño tamaño y perfil bajo, lo que proporciona valiosas ventajas de ahorro de espacio en aplicaciones de alta densidad. La conexión se logra a través de un sistema de palanca que produce un <clic> audible cuando está bloqueado.",
+    features: [
+      {
+        id: 1,
+        title: "With high-quality membranes",
+        description:
+          "We provide top-quality membranes that ensure effective and reliable separation processes, contributing to enhanced productivity and reduced downtime.",
+      },
+      {
+        id: 2,
+        title: "Enhanced Filtration Efficiency",
+        description:
+          "Our LC Connector offers enhanced filtration efficiency, resulting in cleaner and purer outcomes for your industrial applications.",
+      },
+      {
+        id: 3,
+        title: "Streamlined and Cost-effective",
+        description:
+          "Our LC Connector is designed for cost-effectiveness without compromising on quality. It helps you save on operational costs while achieving superior results.",
+      },
+    ],
+    category: "Connectors", // Assigned to the "Boxes" category
+    reviews: [
+      {
+        description:
+          "Your Crossflow Filtration Experts. Innovative solutions for efficient separation processes. Trust.",
+        user: {
+          avatar: "/assets/images/user.png",
+          name: "John Doe",
+        },
+        rating: 3,
+      },
+    ],
+    image: "/assets/images/products/connecteurFC.png",
+    images: ["/assets/images/products/connecteurFC.png"],
+  },
+  {
+    title: "Conectores LC",
+    price: 599,
+    rating: 3,
+    slug: "product-17",
+    description:
+      "El conector LC se caracteriza por su pequeño tamaño y perfil bajo, lo que proporciona valiosas ventajas de ahorro de espacio en aplicaciones de alta densidad. La conexión se logra a través de un sistema de palanca que produce un <clic> audible cuando está bloqueado. Sistema de conexión tipo clip. Ferrula de Cerámica (ZrO2) - Diámetro de 1.25 mm. Compatible con toda nuestra gama de adaptadores LC. Cumple con las normas IEC-61754-20. Cumple con las directivas RoHS y REACH SVHC.",
+    features: [
+      {
+        id: 1,
+        title: "With high-quality membranes",
+        description:
+          "We provide top-quality membranes that ensure effective and reliable separation processes, contributing to enhanced productivity and reduced downtime.",
+      },
+      {
+        id: 2,
+        title: "Enhanced Filtration Efficiency",
+        description:
+          "Our LC Connector offers enhanced filtration efficiency, resulting in cleaner and purer outcomes for your industrial applications.",
+      },
+      {
+        id: 3,
+        title: "Streamlined and Cost-effective",
+        description:
+          "Our LC Connector is designed for cost-effectiveness without compromising on quality. It helps you save on operational costs while achieving superior results.",
+      },
+    ],
+    category: "Connectors", // Assigned to the "Boxes" category
+    reviews: [
+      {
+        description:
+          "Your Crossflow Filtration Experts. Innovative solutions for efficient separation processes. Trust.",
+        user: {
+          avatar: "/assets/images/user.png",
+          name: "John Doe",
+        },
+        rating: 3,
+      },
+    ],
+    image: "/assets/images/products/connecteurLC.png",
+    images: ["/assets/images/products/connecteurLC.png"],
+  },
+  {
+    title: "Conectores SC",
+    price: 599,
+    rating: 3,
+    slug: "product-18",
+    description:
+      "Los conectores SC son sinónimo de conectores para suscriptores. Los conectores SC ofrecen una excelente densidad y su diseño de inserción y extracción asegura una conexión de fibra robusta con un contacto de extremo fino. Los conectores SC son rentables, robustos y sin problemas. Los conectores SC proporcionan un posicionamiento preciso a través de sus casquillos de cerámica. El componente del conector que se encaja y desencaja con un movimiento simple hacia adelante y hacia atrás está indexado. Los conectores ópticos SC tienen una ferrula de 2.5 mm y una carcasa moldeada para protección.",
+    features: [
+      {
+        id: 1,
+        title: "With high-quality membranes",
+        description:
+          "We provide top-quality membranes that ensure effective and reliable separation processes, contributing to enhanced productivity and reduced downtime.",
+      },
+      {
+        id: 2,
+        title: "Enhanced Filtration Efficiency",
+        description:
+          "Our LC Connector offers enhanced filtration efficiency, resulting in cleaner and purer outcomes for your industrial applications.",
+      },
+      {
+        id: 3,
+        title: "Streamlined and Cost-effective",
+        description:
+          "Our LC Connector is designed for cost-effectiveness without compromising on quality. It helps you save on operational costs while achieving superior results.",
+      },
+    ],
+    category: "Connectors", // Assigned to the "Boxes" category
+    reviews: [
+      {
+        description:
+          "Your Crossflow Filtration Experts. Innovative solutions for efficient separation processes. Trust.",
+        user: {
+          avatar: "/assets/images/user.png",
+          name: "John Doe",
+        },
+        rating: 3,
+      },
+    ],
+    image: "/assets/images/products/connecteurSC.png",
+    images: ["/assets/images/products/connecteurSC.png"],
+  },
+  {
+    title: "Conectores ST",
+    price: 599,
+    rating: 3,
+    slug: "product-19",
+    description:
+      "Sistema de Conexión Tipo Bayoneta Metálica. Ferrula de Cerámica (ZrO2) - Diámetro de 2.5 mm. Compatible con toda nuestra gama de adaptadores ST. Cumple con las normas IEC-61754-2. Cumple con las directivas RoHS y REACH SVHC. Conector óptico SC Simplex para fibra monomodo. Montaje en cable de 900µm. También disponible en versiones de 2.0 mm y 3.0 mm. ",
+    features: [
+      {
+        id: 1,
+        title: "With high-quality membranes",
+        description:
+          "We provide top-quality membranes that ensure effective and reliable separation processes, contributing to enhanced productivity and reduced downtime.",
+      },
+      {
+        id: 2,
+        title: "Enhanced Filtration Efficiency",
+        description:
+          "Our LC Connector offers enhanced filtration efficiency, resulting in cleaner and purer outcomes for your industrial applications.",
+      },
+      {
+        id: 3,
+        title: "Streamlined and Cost-effective",
+        description:
+          "Our LC Connector is designed for cost-effectiveness without compromising on quality. It helps you save on operational costs while achieving superior results.",
+      },
+    ],
+    category: "Connectors", // Assigned to the "Boxes" category
+    reviews: [
+      {
+        description:
+          "Your Crossflow Filtration Experts. Innovative solutions for efficient separation processes. Trust.",
+        user: {
+          avatar: "/assets/images/user.png",
+          name: "John Doe",
+        },
+        rating: 3,
+      },
+    ],
+    image: "/assets/images/products/connecteurST.png",
+    images: ["/assets/images/products/connecteurST.png"],
+  },
+
+  //TOOLS
+  {
+    title: "Abre Tubos",
+    price: 599,
+    rating: 3,
+    slug: "product-20",
+    description:
+      "La herramienta abre tubos ha sido diseñada para garantizar un pelado preciso, seguro y rápido de cualquier tipo de funda. Con zonas dedicadas para tubos de 2 mm, 2.5 mm y 3 mm, asegura una fijación óptima del tubo para evitar cualquier riesgo de daño a las fibras.",
+    features: [
+      {
+        id: 1,
+        title: "With high-quality membranes",
+        description:
+          "We provide top-quality membranes that ensure effective and reliable separation processes, contributing to enhanced productivity and reduced downtime.",
+      },
+      {
+        id: 2,
+        title: "Enhanced Filtration Efficiency",
+        description:
+          "Our LC Connector offers enhanced filtration efficiency, resulting in cleaner and purer outcomes for your industrial applications.",
+      },
+      {
+        id: 3,
+        title: "Streamlined and Cost-effective",
+        description:
+          "Our LC Connector is designed for cost-effectiveness without compromising on quality. It helps you save on operational costs while achieving superior results.",
+      },
+    ],
+    category: "Tools", // Assigned to the "Tools" category
+    reviews: [
+      {
+        description:
+          "Your Crossflow Filtration Experts. Innovative solutions for efficient separation processes. Trust.",
+        user: {
+          avatar: "/assets/images/user.png",
+          name: "John Doe",
+        },
+        rating: 3,
+      },
+    ],
+    image: "/assets/images/products/OuvreTube.png",
+    images: ["/assets/images/products/OuvreTube.png"],
+  },
+  {
+    title: "Herramienta de Pelado ACS",
+    price: 599,
+    rating: 3,
+    slug: "product-21",
+    description:
+      "Una herramienta ideal para dividir la capa blindada de aluminio o metal de los cables de fibra óptica. Esta herramienta divide la funda exterior del blindaje en una sola operación e incorpora una cuchilla giratoria de 90 grados, lo que facilita aún más su uso.",
+    features: [
+      {
+        id: 1,
+        title: "With high-quality membranes",
+        description:
+          "We provide top-quality membranes that ensure effective and reliable separation processes, contributing to enhanced productivity and reduced downtime.",
+      },
+      {
+        id: 2,
+        title: "Enhanced Filtration Efficiency",
+        description:
+          "Our LC Connector offers enhanced filtration efficiency, resulting in cleaner and purer outcomes for your industrial applications.",
+      },
+      {
+        id: 3,
+        title: "Streamlined and Cost-effective",
+        description:
+          "Our LC Connector is designed for cost-effectiveness without compromising on quality. It helps you save on operational costs while achieving superior results.",
+      },
+    ],
+    category: "Tools", // Assigned to the "Tools" category
+    reviews: [
+      {
+        description:
+          "Your Crossflow Filtration Experts. Innovative solutions for efficient separation processes. Trust.",
+        user: {
+          avatar: "/assets/images/user.png",
+          name: "John Doe",
+        },
+        rating: 3,
+      },
+    ],
+    image: "/assets/images/products/OutilDeDegainage.png",
+    images: ["/assets/images/products/OutilDeDegainage.png"],
+  },
+  {
+    title: "Tijeras Premium",
+    price: 599,
+    rating: 3,
+    slug: "product-22",
+    description:
+      "Garantizan un corte limpio y preciso para cortar hebras de aramida o Kevlar.",
+    features: [
+      {
+        id: 1,
+        title: "With high-quality membranes",
+        description:
+          "We provide top-quality membranes that ensure effective and reliable separation processes, contributing to enhanced productivity and reduced downtime.",
+      },
+      {
+        id: 2,
+        title: "Enhanced Filtration Efficiency",
+        description:
+          "Our LC Connector offers enhanced filtration efficiency, resulting in cleaner and purer outcomes for your industrial applications.",
+      },
+      {
+        id: 3,
+        title: "Streamlined and Cost-effective",
+        description:
+          "Our LC Connector is designed for cost-effectiveness without compromising on quality. It helps you save on operational costs while achieving superior results.",
+      },
+    ],
+    category: "Tools", // Assigned to the "Tools" category
+    reviews: [
+      {
+        description:
+          "Your Crossflow Filtration Experts. Innovative solutions for efficient separation processes. Trust.",
+        user: {
+          avatar: "/assets/images/user.png",
+          name: "John Doe",
+        },
+        rating: 3,
+      },
+    ],
+    image: "/assets/images/products/CiseauPremium.png",
+    images: ["/assets/images/products/CiseauPremium.png"],
+  },
+  {
+    title: "Kit de Herramientas P01",
+    price: 599,
+    rating: 3,
+    slug: "product-23",
+    description:
+      "El kit de herramientas está diseñado para técnicos de telecomunicaciones y contiene herramientas completas para conexiones de redes de fibra óptica.",
+    features: [
+      {
+        id: 1,
+        title: "With high-quality membranes",
+        description:
+          "We provide top-quality membranes that ensure effective and reliable separation processes, contributing to enhanced productivity and reduced downtime.",
+      },
+      {
+        id: 2,
+        title: "Enhanced Filtration Efficiency",
+        description:
+          "Our LC Connector offers enhanced filtration efficiency, resulting in cleaner and purer outcomes for your industrial applications.",
+      },
+      {
+        id: 3,
+        title: "Streamlined and Cost-effective",
+        description:
+          "Our LC Connector is designed for cost-effectiveness without compromising on quality. It helps you save on operational costs while achieving superior results.",
+      },
+    ],
+    category: "Tools", // Assigned to the "Tools" category
+    reviews: [
+      {
+        description:
+          "Your Crossflow Filtration Experts. Innovative solutions for efficient separation processes. Trust.",
+        user: {
+          avatar: "/assets/images/user.png",
+          name: "John Doe",
+        },
+        rating: 3,
+      },
+    ],
+    image: "/assets/images/products/PackOutilPO1.png",
+    images: ["/assets/images/products/PackOutilPO1.png"],
+  },
+
+  //PIGTAILS
+  {
+    title: "Cables de Conexión FC (Patch Cords) ",
+    price: 599,
+    rating: 3,
+    slug: "product-24",
+    description: "Cables de Conexión FC (Patch Cords) ",
+    features: [
+      {
+        id: 1,
+        title: "With high-quality membranes",
+        description:
+          "We provide top-quality membranes that ensure effective and reliable separation processes, contributing to enhanced productivity and reduced downtime.",
+      },
+      {
+        id: 2,
+        title: "Enhanced Filtration Efficiency",
+        description:
+          "Our LC Connector offers enhanced filtration efficiency, resulting in cleaner and purer outcomes for your industrial applications.",
+      },
+      {
+        id: 3,
+        title: "Streamlined and Cost-effective",
+        description:
+          "Our LC Connector is designed for cost-effectiveness without compromising on quality. It helps you save on operational costs while achieving superior results.",
+      },
+    ],
+    category: "Pigtails", // Assigned to the "Tools" category
+    reviews: [
+      {
+        description:
+          "Your Crossflow Filtration Experts. Innovative solutions for efficient separation processes. Trust.",
+        user: {
+          avatar: "/assets/images/user.png",
+          name: "John Doe",
+        },
+        rating: 3,
+      },
+    ],
+    image: "/assets/images/products/JERRETIERESFC-ST.png",
+    images: ["/assets/images/products/JERRETIERESFC-ST.png"],
+  },
+  {
+    title: "Pigtails FC",
+    price: 599,
+    rating: 3,
+    slug: "product-25",
+    description:
+      "Los Pigtails FC están hechos de material metálico y se aseguran con una contratuerca. Cumplen con las directivas RoHS y REACH SVHC y se adhieren a las normas IEC-61754-2.",
+    features: [
+      {
+        id: 1,
+        title: "With high-quality membranes",
+        description:
+          "We provide top-quality membranes that ensure effective and reliable separation processes, contributing to enhanced productivity and reduced downtime.",
+      },
+      {
+        id: 2,
+        title: "Enhanced Filtration Efficiency",
+        description:
+          "Our LC Connector offers enhanced filtration efficiency, resulting in cleaner and purer outcomes for your industrial applications.",
+      },
+      {
+        id: 3,
+        title: "Streamlined and Cost-effective",
+        description:
+          "Our LC Connector is designed for cost-effectiveness without compromising on quality. It helps you save on operational costs while achieving superior results.",
+      },
+    ],
+    category: "Pigtails", // Assigned to the "Tools" category
+    reviews: [
+      {
+        description:
+          "Your Crossflow Filtration Experts. Innovative solutions for efficient separation processes. Trust.",
+        user: {
+          avatar: "/assets/images/user.png",
+          name: "John Doe",
+        },
+        rating: 3,
+      },
+    ],
+    image: "/assets/images/products/PigtailFCST.png",
+    images: ["/assets/images/products/PigtailFCST.png"],
+  },
+  {
+    title: "Pigtails SC",
+    price: 599,
+    rating: 3,
+    slug: "product-26",
+    description:
+      "Los Pigtails SC están hechos de material plástico compuesto y se fijan con tuercas roscadas. Cumplen con las normas IEC-61754-7 y TIA-604-5 y se adhieren a las directivas RoHS y REACH SVHC.",
+    features: [
+      {
+        id: 1,
+        title: "With high-quality membranes",
+        description:
+          "We provide top-quality membranes that ensure effective and reliable separation processes, contributing to enhanced productivity and reduced downtime.",
+      },
+      {
+        id: 2,
+        title: "Enhanced Filtration Efficiency",
+        description:
+          "Our LC Connector offers enhanced filtration efficiency, resulting in cleaner and purer outcomes for your industrial applications.",
+      },
+      {
+        id: 3,
+        title: "Streamlined and Cost-effective",
+        description:
+          "Our LC Connector is designed for cost-effectiveness without compromising on quality. It helps you save on operational costs while achieving superior results.",
+      },
+    ],
+    category: "Pigtails", // Assigned to the "Tools" category
+    reviews: [
+      {
+        description:
+          "Your Crossflow Filtration Experts. Innovative solutions for efficient separation processes. Trust.",
+        user: {
+          avatar: "/assets/images/user.png",
+          name: "John Doe",
+        },
+        rating: 3,
+      },
+    ],
+    image: "/assets/images/products/PigtailSCLC.png",
+    images: ["/assets/images/products/PigtailSCLC.png"],
+  },
+
+  //WELDER
+  {
+    title: "Cortadora de Fibra F170",
+    price: 599,
+    rating: 3,
+    slug: "product-27",
+    description: "Cortadora de Fibra F170",
+    features: [
+      {
+        id: 1,
+        title: "With high-quality membranes",
+        description:
+          "We provide top-quality membranes that ensure effective and reliable separation processes, contributing to enhanced productivity and reduced downtime.",
+      },
+      {
+        id: 2,
+        title: "Enhanced Filtration Efficiency",
+        description:
+          "Our LC Connector offers enhanced filtration efficiency, resulting in cleaner and purer outcomes for your industrial applications.",
+      },
+      {
+        id: 3,
+        title: "Streamlined and Cost-effective",
+        description:
+          "Our LC Connector is designed for cost-effectiveness without compromising on quality. It helps you save on operational costs while achieving superior results.",
+      },
+    ],
+    category: "Welder", // Assigned to the "Tools" category
+    reviews: [
+      {
+        description:
+          "Your Crossflow Filtration Experts. Innovative solutions for efficient separation processes. Trust.",
+        user: {
+          avatar: "/assets/images/user.png",
+          name: "John Doe",
+        },
+        rating: 3,
+      },
+    ],
+    image: "/assets/images/products/CliveuseF170.png",
+    images: ["/assets/images/products/CliveuseF170.png"],
+  },
+  {
+    title: "Cortadora de Fibra Sumitomo FC-8R",
+    price: 599,
+    rating: 3,
+    slug: "product-28",
+    description: "Cortadora de Fibra Sumitomo FC-8R",
+    features: [
+      {
+        id: 1,
+        title: "With high-quality membranes",
+        description:
+          "We provide top-quality membranes that ensure effective and reliable separation processes, contributing to enhanced productivity and reduced downtime.",
+      },
+      {
+        id: 2,
+        title: "Enhanced Filtration Efficiency",
+        description:
+          "Our LC Connector offers enhanced filtration efficiency, resulting in cleaner and purer outcomes for your industrial applications.",
+      },
+      {
+        id: 3,
+        title: "Streamlined and Cost-effective",
+        description:
+          "Our LC Connector is designed for cost-effectiveness without compromising on quality. It helps you save on operational costs while achieving superior results.",
+      },
+    ],
+    category: "Welder", // Assigned to the "Tools" category
+    reviews: [
+      {
+        description:
+          "Your Crossflow Filtration Experts. Innovative solutions for efficient separation processes. Trust.",
+        user: {
+          avatar: "/assets/images/user.png",
+          name: "John Doe",
+        },
+        rating: 3,
+      },
+    ],
+    image: "/assets/images/products/CliveuseSumitomoFC-8R.png",
+    images: ["/assets/images/products/CliveuseSumitomoFC-8R.png"],
+  },
+  {
+    title: "Empalmadora de Fusión Premium 4106S",
+    price: 599,
+    rating: 3,
+    slug: "product-29",
+    description:
+      "La empalmadora de fusión Premium 4106S es una herramienta de alta calidad para empalmar cables de fibra óptica. Ofrece un rendimiento preciso y confiable en la fusión de fibras, garantizando conexiones ópticas robustas y duraderas.",
+    features: [
+      {
+        id: 1,
+        title: "With high-quality membranes",
+        description:
+          "We provide top-quality membranes that ensure effective and reliable separation processes, contributing to enhanced productivity and reduced downtime.",
+      },
+      {
+        id: 2,
+        title: "Enhanced Filtration Efficiency",
+        description:
+          "Our LC Connector offers enhanced filtration efficiency, resulting in cleaner and purer outcomes for your industrial applications.",
+      },
+      {
+        id: 3,
+        title: "Streamlined and Cost-effective",
+        description:
+          "Our LC Connector is designed for cost-effectiveness without compromising on quality. It helps you save on operational costs while achieving superior results.",
+      },
+    ],
+    category: "Welder", // Assigned to the "Tools" category
+    reviews: [
+      {
+        description:
+          "Your Crossflow Filtration Experts. Innovative solutions for efficient separation processes. Trust.",
+        user: {
+          avatar: "/assets/images/user.png",
+          name: "John Doe",
+        },
+        rating: 3,
+      },
+    ],
+    image: "/assets/images/products/Soudeuse4106S.png",
+    images: ["/assets/images/products/Soudeuse4106S.png"],
+  },
+  {
+    title: "Empalmadora de Fusión Comway C10",
+    price: 599,
+    rating: 3,
+    slug: "product-30",
+    description:
+      "La Comway C10 es una herramienta poderosa para empalmar cualquier cable de fibra óptica. Puede utilizarse en diversas condiciones de trabajo para empalmes de fibra en campo. Gracias a su larga duración de la batería, la Comway C10 sigue funcionando incluso en los entornos más desafiantes.",
+    features: [
+      {
+        id: 1,
+        title: "With high-quality membranes",
+        description:
+          "We provide top-quality membranes that ensure effective and reliable separation processes, contributing to enhanced productivity and reduced downtime.",
+      },
+      {
+        id: 2,
+        title: "Enhanced Filtration Efficiency",
+        description:
+          "Our LC Connector offers enhanced filtration efficiency, resulting in cleaner and purer outcomes for your industrial applications.",
+      },
+      {
+        id: 3,
+        title: "Streamlined and Cost-effective",
+        description:
+          "Our LC Connector is designed for cost-effectiveness without compromising on quality. It helps you save on operational costs while achieving superior results.",
+      },
+    ],
+    category: "Welder", // Assigned to the "Tools" category
+    reviews: [
+      {
+        description:
+          "Your Crossflow Filtration Experts. Innovative solutions for efficient separation processes. Trust.",
+        user: {
+          avatar: "/assets/images/user.png",
+          name: "John Doe",
+        },
+        rating: 3,
+      },
+    ],
+    image: "/assets/images/products/SoudeuseComwayC10.png",
+    images: ["/assets/images/products/SoudeuseComwayC10.png"],
+  },
+];
+
+
+
+
+
 export const faqsEs = [
   {
     id: 1,
