@@ -64,32 +64,16 @@ const Footer = () => {
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                  <Link href="/" className="hover:underline text-white">
-                    Address
-                  </Link>
+                  <h2>
+                    Sociedad limitada con un capital de 10.000.000 FCFA,Paseo
+                    alameda 48 planta 5 puerta 20 ,46023 valencia{" "}
+                  </h2>
                 </li>
                 <li className="mb-4">
-                  <Link href="/#about" className="hover:underline text-white">
-                    About
-                  </Link>
+                  <h2>Tel : +34 623017360</h2>
                 </li>
                 <li className="mb-4">
-                  <Link
-                    href="/#services"
-                    className="hover:underline text-white"
-                  >
-                    Services
-                  </Link>
-                </li>
-                <li className="mb-4">
-                  <Link href="/search" className="hover:underline text-white">
-                    Products
-                  </Link>
-                </li>
-                <li className="mb-4">
-                  <Link href="/#faq" className="hover:underline text-white">
-                    FAQ
-                  </Link>
+                  <h2>Correro electronico : infos@fiberitech.com</h2>
                 </li>
               </ul>
             </div>
