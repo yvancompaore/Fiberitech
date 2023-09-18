@@ -2594,10 +2594,6 @@ export const productsEs = [
   },
 ];
 
-
-
-
-
 export const faqsEs = [
   {
     id: 1,
@@ -2659,9 +2655,6 @@ export const categories = [
   },
 ];
 
-
-
-
-export const getLocale=(pathName)=>{
-  return pathName.split('/')[1]
-}
+export const getLocale = (pathName) => {
+  return pathName.split("/")[1];
+};

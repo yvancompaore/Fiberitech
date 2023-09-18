@@ -32,7 +32,7 @@ const SearchPage = ({ params }) => {
   const t = useTranslations("Footer");
   const pathname = usePathname();
   const locale = getLocale(pathname);
-  console.log("locale product", locale);
+  console.log("locale search", locale);
 
   return (
     <main className=" w-full l">

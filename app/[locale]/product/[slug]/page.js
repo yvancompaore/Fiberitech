@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 
 import NavBarLight from "@/components/common/NavBarLight";
@@ -7,7 +8,7 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/navigation";
 import "swiper/css/thumbs";
-import { products } from "@/utils/constants";
+import { products, productsEs } from "@/utils/constants";
 import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
 import Button from "@/components/common/Button";
 import DotIndicator from "@/components/common/DotIndicator";
@@ -19,12 +20,25 @@ import RelatedProducts from "@/components/product/RelatedProducts";
 import ProductOverview from "@/components/product/ProductOverview";
 
 import { getLocale } from "@/utils/constants";
+import { usePathname, useSearchParams } from "next/navigation";
+
+import { useTranslations } from "next-intl";
 
 const ProductPage = ({ params }) => {
-  const product = products.find((product) => product.slug === params.slug);
+  const t = useTranslations("Footer");
+  const pathname = usePathname();
   const locale = getLocale(pathname);
+  var rigthProducts;
+  console.log("locale search", locale);
 
-  console.log("locale product", locale);
+  if (locale == "es") {
+    rigthProducts = productsEs;
+  } else {
+    rigthProducts = products;
+  }
+
+  const product = rigthProducts.find((product) => product.slug === params.slug);
+
   return (
     <main className=" w-full l">
       <NavBarLight />

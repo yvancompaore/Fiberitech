@@ -7,13 +7,24 @@ import "swiper/css";
 import "swiper/css/pagination";
 import Image from "next/image";
 import Product from "@/components/common/Product";
-import { products } from "@/utils/constants";
+import { products, productsEs } from "@/utils/constants";
 import { useTranslations } from "next-intl";
 import { useLocale, useMessages } from "next-intl";
+import { getLocale } from "@/utils/constants";
+import { usePathname, useSearchParams } from "next/navigation";
 
 const Products = () => {
   const t = useTranslations("Product");
-  const locale = useLocale();
+  const pathname = usePathname();
+  const locale = getLocale(pathname);
+  var rigthProducts;
+
+  if (locale == "es") {
+    rigthProducts = productsEs;
+  } else {
+    rigthProducts = products;
+  }
+
   const [isLoaded, setLoaded] = useState(false);
   useEffect(() => {
     setTimeout(() => {
@@ -69,7 +80,7 @@ const Products = () => {
           isLoaded ? "loaded" : ""
         }`}
       >
-        {products.map((product) => (
+        {rigthProducts.map((product) => (
           <SwiperSlide className={"py-8"} key={product.title}>
             <Product {...product} />
           </SwiperSlide>
@@ -110,7 +121,7 @@ const Products = () => {
         modules={[Pagination, Autoplay]}
         className={`mySwiper lg:h-96  anim-l-to-r ${isLoaded ? "loaded" : ""}`}
       >
-        {products
+        {rigthProducts
           .sort(() => 0.5 - Math.random())
           .map((product) => (
             <SwiperSlide className={"py-8"} key={product.title + "2"}>
