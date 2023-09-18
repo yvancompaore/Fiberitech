@@ -116,19 +116,10 @@ const ContactUs = () => {
           autoClose: 3000, // Close after 3 seconds
         });
 
-        // Réinitialiser l'état du formulaire aux valeurs initiales
-        setFormData({
-          firstName: "",
-          lastName: "",
-          email: "",
-          phone: "",
-          message: "",
-        });
-
         // Vous pouvez maintenant traiter les données du formulaire car elles sont valides
         console.log("Données soumises :", formData);
 
-        router.reload();
+        router.push("/");
         // Optionally, you can redirect or show a success message here.
       } else {
         console.error("Failed to send email");
