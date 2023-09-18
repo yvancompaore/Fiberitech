@@ -25,16 +25,15 @@ export async function POST(req, context) {
       `${data.message}`
     );
 
-    if (res) {
-      console.log("tt");
-      return NextResponse.json(
-        { message: "Email Sent Succes" },
-        {
-          status: 200,
-        }
-      );
-    }
+    console.log("tt");
+    return NextResponse.json(
+      { message: "Email Sent Succes" },
+      {
+        status: 200,
+      }
+    );
   } catch (err) {
+    console.log("On route email failed");
     return NextResponse.json(
       { message: `${err.message}` },
       {

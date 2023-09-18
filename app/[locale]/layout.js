@@ -6,6 +6,9 @@ import Footer from "@/components/common/Footer";
 import { useLocale, useMessages } from "next-intl";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider } from "next-intl";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import ToastNotification from "@/components/common/ToastNotification";
 
 const quicksand = Quicksand({ subsets: ["latin"] });
 
@@ -29,7 +32,14 @@ export default function RootLayout({ children, params }) {
       <body className={quicksand.className}>
         <NextIntlClientProvider locale={locale} messages={messages}>
           {children}
-
+          <ToastNotification />
+          <ToastContainer
+            position="top-right"
+            autoClose="3000"
+            hideProgressBar={false}
+            newestOnTop={false}
+            closeOnClick
+          />
           <Footer />
         </NextIntlClientProvider>
       </body>

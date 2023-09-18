@@ -4,6 +4,7 @@ import Button from "@/components/common/Button";
 import { useTranslations } from "next-intl";
 import { useLocale, useMessages } from "next-intl";
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -22,6 +23,7 @@ const ContactUs = () => {
   const [phoneError, setPhoneError] = useState("");
   const [isSubmitDisabled, setIsSubmitDisabled] = useState(true);
   const [touchedFields, setTouchedFields] = useState({});
+  const router = useRouter();
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -113,6 +115,20 @@ const ContactUs = () => {
           position: "top-right",
           autoClose: 3000, // Close after 3 seconds
         });
+
+        // Réinitialiser l'état du formulaire aux valeurs initiales
+        setFormData({
+          firstName: "",
+          lastName: "",
+          email: "",
+          phone: "",
+          message: "",
+        });
+
+        // Vous pouvez maintenant traiter les données du formulaire car elles sont valides
+        console.log("Données soumises :", formData);
+
+        router.reload();
         // Optionally, you can redirect or show a success message here.
       } else {
         console.error("Failed to send email");
@@ -125,9 +141,6 @@ const ContactUs = () => {
     } catch (error) {
       console.error("Error sending email:", error);
     }
-
-    // Vous pouvez maintenant traiter les données du formulaire car elles sont valides
-    console.log("Données soumises :", formData);
   };
 
   return (

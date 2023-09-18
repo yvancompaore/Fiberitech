@@ -714,13 +714,8 @@ export const products = [
         rating: 3,
       },
     ],
-    image: "/assets/images/products/product1.png",
-    images: [
-      "/assets/images/products/product1.png",
-      "/assets/images/products/product2.png",
-      "/assets/images/products/product3.png",
-      "/assets/images/products/product4.png",
-    ],
+    image: "/assets/images/products/connecteurFC.png",
+    images: ["/assets/images/products/connecteurFC.png"],
   },
   {
     title: "LC Connectors",
@@ -761,13 +756,8 @@ export const products = [
         rating: 3,
       },
     ],
-    image: "/assets/images/products/product1.png",
-    images: [
-      "/assets/images/products/product1.png",
-      "/assets/images/products/product2.png",
-      "/assets/images/products/product3.png",
-      "/assets/images/products/product4.png",
-    ],
+    image: "/assets/images/products/connecteurLC.png",
+    images: ["/assets/images/products/connecteurLC.png"],
   },
   {
     title: "SC Connectors",
@@ -808,13 +798,8 @@ export const products = [
         rating: 3,
       },
     ],
-    image: "/assets/images/products/product1.png",
-    images: [
-      "/assets/images/products/product1.png",
-      "/assets/images/products/product2.png",
-      "/assets/images/products/product3.png",
-      "/assets/images/products/product4.png",
-    ],
+    image: "/assets/images/products/connecteurSC.png",
+    images: ["/assets/images/products/connecteurSC.png"],
   },
   {
     title: "ST Connectors",
@@ -855,13 +840,8 @@ export const products = [
         rating: 3,
       },
     ],
-    image: "/assets/images/products/product1.png",
-    images: [
-      "/assets/images/products/product1.png",
-      "/assets/images/products/product2.png",
-      "/assets/images/products/product3.png",
-      "/assets/images/products/product4.png",
-    ],
+    image: "/assets/images/products/connecteurST.png",
+    images: ["/assets/images/products/connecteurST.png"],
   },
 
   //TOOLS
@@ -904,13 +884,8 @@ export const products = [
         rating: 3,
       },
     ],
-    image: "/assets/images/products/product1.png",
-    images: [
-      "/assets/images/products/product1.png",
-      "/assets/images/products/product2.png",
-      "/assets/images/products/product3.png",
-      "/assets/images/products/product4.png",
-    ],
+    image: "/assets/images/products/OuvreTube.png",
+    images: ["/assets/images/products/OuvreTube.png"],
   },
   {
     title: "ACS Stripping Tool",
@@ -951,13 +926,8 @@ export const products = [
         rating: 3,
       },
     ],
-    image: "/assets/images/products/product1.png",
-    images: [
-      "/assets/images/products/product1.png",
-      "/assets/images/products/product2.png",
-      "/assets/images/products/product3.png",
-      "/assets/images/products/product4.png",
-    ],
+    image: "/assets/images/products/OutilDeDegainage.png",
+    images: ["/assets/images/products/OutilDeDegainage.png"],
   },
   {
     title: "Premium Scissors",
@@ -998,13 +968,8 @@ export const products = [
         rating: 3,
       },
     ],
-    image: "/assets/images/products/product1.png",
-    images: [
-      "/assets/images/products/product1.png",
-      "/assets/images/products/product2.png",
-      "/assets/images/products/product3.png",
-      "/assets/images/products/product4.png",
-    ],
+    image: "/assets/images/products/CiseauPremium.png",
+    images: ["/assets/images/products/CiseauPremium.png"],
   },
   {
     title: "P01 Tool Kit",
@@ -1045,13 +1010,8 @@ export const products = [
         rating: 3,
       },
     ],
-    image: "/assets/images/products/product1.png",
-    images: [
-      "/assets/images/products/product1.png",
-      "/assets/images/products/product2.png",
-      "/assets/images/products/product3.png",
-      "/assets/images/products/product4.png",
-    ],
+    image: "/assets/images/products/PackOutilPO1.png",
+    images: ["/assets/images/products/PackOutilPO1.png"],
   },
 
   //PIGTAILS
@@ -1093,13 +1053,8 @@ export const products = [
         rating: 3,
       },
     ],
-    image: "/assets/images/products/product1.png",
-    images: [
-      "/assets/images/products/product1.png",
-      "/assets/images/products/product2.png",
-      "/assets/images/products/product3.png",
-      "/assets/images/products/product4.png",
-    ],
+    image: "/assets/images/products/JERRETIERESFC-ST.png",
+    images: ["/assets/images/products/JERRETIERESFC-ST.png"],
   },
   {
     title: "FC Pigtails",
@@ -1140,13 +1095,8 @@ export const products = [
         rating: 3,
       },
     ],
-    image: "/assets/images/products/product1.png",
-    images: [
-      "/assets/images/products/product1.png",
-      "/assets/images/products/product2.png",
-      "/assets/images/products/product3.png",
-      "/assets/images/products/product4.png",
-    ],
+    image: "/assets/images/products/PigtailFCST.png",
+    images: ["/assets/images/products/PigtailFCST.png"],
   },
   {
     title: "SC Pigtails",
@@ -1187,13 +1137,8 @@ export const products = [
         rating: 3,
       },
     ],
-    image: "/assets/images/products/product1.png",
-    images: [
-      "/assets/images/products/product1.png",
-      "/assets/images/products/product2.png",
-      "/assets/images/products/product3.png",
-      "/assets/images/products/product4.png",
-    ],
+    image: "/assets/images/products/PigtailSCLC.png",
+    images: ["/assets/images/products/PigtailSCLC.png"],
   },
 
   //WELDER
@@ -1235,13 +1180,8 @@ export const products = [
         rating: 3,
       },
     ],
-    image: "/assets/images/products/product1.png",
-    images: [
-      "/assets/images/products/product1.png",
-      "/assets/images/products/product2.png",
-      "/assets/images/products/product3.png",
-      "/assets/images/products/product4.png",
-    ],
+    image: "/assets/images/products/CliveuseF170.png",
+    images: ["/assets/images/products/CliveuseF170.png"],
   },
   {
     title: "Sumitomo FC-8R Cleaver",
@@ -1281,13 +1221,8 @@ export const products = [
         rating: 3,
       },
     ],
-    image: "/assets/images/products/product1.png",
-    images: [
-      "/assets/images/products/product1.png",
-      "/assets/images/products/product2.png",
-      "/assets/images/products/product3.png",
-      "/assets/images/products/product4.png",
-    ],
+    image: "/assets/images/products/CliveuseSumitomoFC-8R.png",
+    images: ["/assets/images/products/CliveuseSumitomoFC-8R.png"],
   },
   {
     title: "Premium 4106S Fusion Splicer",
@@ -1327,13 +1262,8 @@ export const products = [
         rating: 3,
       },
     ],
-    image: "/assets/images/products/product1.png",
-    images: [
-      "/assets/images/products/product1.png",
-      "/assets/images/products/product2.png",
-      "/assets/images/products/product3.png",
-      "/assets/images/products/product4.png",
-    ],
+    image: "/assets/images/products/Soudeuse4106S.png",
+    images: ["/assets/images/products/Soudeuse4106S.png"],
   },
   {
     title: "Comway C10 Fusion Splicer",
@@ -1374,18 +1304,10 @@ export const products = [
         rating: 3,
       },
     ],
-    image: "/assets/images/products/product1.png",
-    images: [
-      "/assets/images/products/product1.png",
-      "/assets/images/products/product2.png",
-      "/assets/images/products/product3.png",
-      "/assets/images/products/product4.png",
-    ],
+    image: "/assets/images/products/SoudeuseComwayC10.png",
+    images: ["/assets/images/products/SoudeuseComwayC10.png"],
   },
 ];
-
-   
-  
 
 export const faqsEn = [
   {

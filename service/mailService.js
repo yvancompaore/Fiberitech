@@ -17,25 +17,22 @@ export async function sendMail(subject, fromEmail, otpText) {
     text: otpText,
   };
 
-  /*await new Promise((resolve, reject) => {
-    // send mail
-    transporter.sendMail(mailOptions, (err, response) => {
-      if (err) {
-        console.log(err);
-        return false;
-        //reject(err);
-      } else {
-        console.log("emaim sent " + info.response);
-        return true;
-      }
+  try {
+    const response = await new Promise((resolve, reject) => {
+      // send mail
+      transporter.sendMail(mailOptions, (err, response) => {
+        if (err) {
+          reject(err);
+        } else {
+          resolve(response);
+        }
+      });
     });
-  });*/
-
-  transporter.sendMail(mailOptions, function (error, info) {
-    if (error) {
-      console.log(error);
-    } else {
-      console.log("Email sent");
-    }
-  });
+    // L'e-mail a été envoyé avec succès, et vous pouvez accéder à la réponse ici.
+    console.log("E-mail envoyé :", response);
+  } catch (error) {
+    // Gérer les erreurs éventuelles survenues lors de l'envoi de l'e-mail.
+    console.error("Erreur lors de l'envoi de l'e-mail :", error);
+    throw new Error("Email sending failed");
+  }
 }
