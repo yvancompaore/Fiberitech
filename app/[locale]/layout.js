@@ -22,10 +22,10 @@ export default function RootLayout({ children, params }) {
 
   const messages = useMessages();
 
-  // Validate that the incoming `locale` parameter is a valid locale
-  if (params.locale !== locale) {
-    notFound();
-  }
+  // // Validate that the incoming `locale` parameter is a valid locale
+  // if (params.locale !== locale) {
+  //   notFound();
+  // }
 
   return (
     <html lang={locale}>

@@ -12,6 +12,7 @@ import ContactUs from "@/components/home/ContactUs";
 export default function Home() {
   return (
     <main className="min-h-screen w-full">
+
       <Header />
       <AboutUs />
       <OurServices />

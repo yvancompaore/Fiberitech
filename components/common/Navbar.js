@@ -2,27 +2,20 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import GlobeIcon from "@/public/assets/images/globe.svg";
-import Link from "next/link";
-import { BiCross } from "react-icons/bi";
+import Link from 'next-intl/link';
 import { RxCross1 } from "react-icons/rx";
 import { useTranslations } from "next-intl";
-import { useLocale, useMessages } from "next-intl";
 import { usePathname, useSearchParams } from "next/navigation";
-import { useRouter } from "next/navigation";
+import { getLocale } from "@/utils/constants";
 
 const Navbar = () => {
   const [isVisible, setIsVisible] = useState(false);
   const t = useTranslations("NavBar");
   const pathname = usePathname();
-  var locale;
 
-  if (pathname == "/es") {
-    locale = "es";
-  } else {
-    locale = "en";
-  }
+ const locale=getLocale(pathname)
 
-  console.log("currentUrl", pathname);
+  console.log("currentUrl", getLocale(pathname));
   console.log("locale", locale);
 
   return (
@@ -76,7 +69,7 @@ const Navbar = () => {
           <li className="mr-3">
             <Link
               className="inline-block py-2 px-4 text-white no-underline "
-              href="#"
+              href="/"
             >
               {t("Menu1")}
             </Link>
@@ -84,7 +77,7 @@ const Navbar = () => {
           <li className="mr-3">
             <Link
               className="inline-block py-2 px-4 text-white no-underline "
-              href={`${locale}/search`}
+              href={`/search`}
             >
               {t("Menu2")}
             </Link>
@@ -125,14 +118,14 @@ const Navbar = () => {
           <li className="mt-4 lg:mt-0 ml-4 flex gap-2 items-center">
             <Image src={GlobeIcon} alt={"Language Icon"} />
 
-            <a className={"text-white"} href="/en/">
+            <Link className={"text-white"} href="/" locale="en">
               en
-            </a>
+            </Link>
 
             <span className={"h-5 w-0.5 bg-white/60"}></span>
-            <a className={"text-white/30"} href="/es/">
+            <Link className={"text-white/30"} href="/" locale="es">
               Es
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
