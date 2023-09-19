@@ -33,6 +33,8 @@ export async function sendMail(subject, fromEmail, otpText) {
   } catch (error) {
     // Gérer les erreurs éventuelles survenues lors de l'envoi de l'e-mail.
     console.error("Erreur lors de l'envoi de l'e-mail :", error);
+    console.log("NODEMAILER_EMAIL", process.env.NODEMAILER_EMAIL);
+    console.log("NODEMAILER_PW", process.env.NODEMAILER_PW);
     throw new Error("Email sending failed");
   }
 }
