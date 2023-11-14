@@ -12,7 +12,7 @@ const AboutUs = () => {
   return (
     <div
       id={"about"}
-      className={" w-full bg-white xl:px-40 flex items-center py-20"}
+      className={" w-full mt-40 bg-white xl:px-40 flex items-center py-20"}
     >
       <div className="flex w-full flex-col md:flex-row ">
         <div className="flex-1">

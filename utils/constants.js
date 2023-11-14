@@ -40,6 +40,29 @@ export const servicesEs = [
   },
 ];
 
+export const partnersCompany = [
+  {
+    title: "BestFinance",
+    image: "/assets/images/partners/BestFinance.jpg",
+  },
+  {
+    title: "OFiber",
+    image: "/assets/images/partners/OFiber.jpg",
+  },
+  {
+    title: "PremiumCompany",
+    image: "/assets/images/partners/PremiumCompany.jpg",
+  },
+  {
+    title: "PremiumHouse",
+    image: "/assets/images/partners/PremiumHouse.jpg",
+  },
+  {
+    title: "SopresCompany",
+    image: "/assets/images/partners/SopresCompany.jpg",
+  },
+];
+
 export const products = [
   //Boxes
   {

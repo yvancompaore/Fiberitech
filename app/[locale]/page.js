@@ -8,12 +8,13 @@ import Testimonials from "@/components/home/Testimonials";
 import Products from "@/components/home/Products";
 import FAQ from "@/components/home/FAQ";
 import ContactUs from "@/components/home/ContactUs";
+import TrustCompany from "@/components/home/TrustCompany";
 
 export default function Home() {
   return (
     <main className="min-h-screen w-full">
-
       <Header />
+      <TrustCompany />
       <AboutUs />
       <OurServices />
       {/*<Testimonials/> */}
