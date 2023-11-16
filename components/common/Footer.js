@@ -5,15 +5,14 @@ import { BiMailSend, BiSend } from "react-icons/bi";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { useLocale, useMessages } from "next-intl";
-
+import Map from "@/components/common/Map";
 const Footer = () => {
   const t = useTranslations("Footer");
   const locale = useLocale();
-
   return (
     <footer className="bg-green_dark">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-        <div className="md:flex md:justify-between">
+        <div className="md:flex md:justify-between gap-x-4">
           <div className="mb-6 md:mb-0">
             <a href="#" className="flex items-center">
               <Image src={Logo} alt={"logo"} width={150} height={150} />
@@ -91,6 +90,9 @@ const Footer = () => {
                 <button className="bg-green_dark p-2 rounded text-white">
                   <BiSend size={22} />
                 </button>
+              </div>
+              <div className={'w-full h-52 bg-red-400 mt-4'}>
+                <Map classNmae={'h-full w-full'}/>
               </div>
             </div>
           </div>
